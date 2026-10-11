@@ -1,0 +1,37 @@
+{
+  "name": "@pcode-checker/addin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Excel add-in: turn a column of place names into OCHA p-codes",
+  "license": "MIT",
+  "config": {
+    "dev_server_port": 3000
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "dev-server": "webpack serve --mode development",
+    "start": "office-addin-debugging start manifest.xml",
+    "start:web": "office-addin-debugging start manifest.xml web",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/custom-functions-runtime": "^1.6.13",
+    "@types/office-js": "^1.0.611",
+    "copy-webpack-plugin": "^14.0.0",
+    "custom-functions-metadata-plugin": "^3.0.1",
+    "html-webpack-plugin": "^5.6.8",
+    "office-addin-debugging": "^7.0.1",
+    "office-addin-dev-certs": "^3.0.1",
+    "office-addin-manifest": "^3.0.1",
+    "ts-loader": "^9.6.2",
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.3",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}

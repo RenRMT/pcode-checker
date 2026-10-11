@@ -1,0 +1,13 @@
+{
+  "name": "pcode-checker",
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/addin"
+  ],
+  "scripts": {
+    "build": "npm run build -w @pcode-checker/core && npm run build -w @pcode-checker/addin",
+    "test": "npm test -w @pcode-checker/core && npm test -w @pcode-checker/addin",
+    "typecheck": "npm run typecheck --workspaces"
+  }
+}

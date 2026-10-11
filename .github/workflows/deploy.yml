@@ -1,0 +1,67 @@
+name: deploy
+
+# Builds the add-in from main, adds the country files from the `data` branch,
+# and publishes both to GitHub Pages (same origin, so no CORS). Pushes to
+# `data` trigger this through the data branch's deploy-on-data workflow.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - name: Does the data branch exist?
+        id: branch
+        run: |
+          if git ls-remote --exit-code --heads origin data > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::No data branch yet: run the data-refresh workflow. Deploying the add-in without data."
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v7
+        if: steps.branch.outputs.exists == 'true'
+        with:
+          ref: data
+          path: site/data
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Assemble the site
+        run: |
+          mkdir -p _site/data
+          cp -r packages/addin/dist/. _site/
+          if [ -d site/data ]; then rsync -a --exclude .git --exclude .github site/data/ _site/data/; fi
+          touch _site/.nojekyll
+          du -sh _site
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

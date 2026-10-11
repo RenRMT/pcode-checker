@@ -1,0 +1,53 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  data-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: data-build
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - run: uv sync
+      - run: uv run pytest -q
+
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npx office-addin-manifest validate manifest.xml
+        working-directory: packages/addin
+
+  # The TS matcher against hdx-python-country on every fixture.
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build -w @pcode-checker/core
+      - uses: astral-sh/setup-uv@v10
+      - name: Evaluate
+        working-directory: data-build
+        run: |
+          uv sync --group eval
+          uv run python -m eval --errors 30 --out ../eval-report.md 2>/dev/null
+          cat ../eval-report.md >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,5343 @@
+{
+ "iso3": "SYR",
+ "version": "v02",
+ "seed": 20261011,
+ "cases": [
+  {
+   "id": "SYR-0000",
+   "input": "Damascsu",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY01",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0001",
+   "input": "Damascus Province",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY01",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0002",
+   "input": "Dammascus",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY01",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0003",
+   "input": "As-Sweidda",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY13",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0004",
+   "input": "As Sweida",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY13",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0005",
+   "input": "Afs-Sweida",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY13",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0006",
+   "input": "Qunaitra",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY14",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0007",
+   "input": "Quneitra Region",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY14",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0008",
+   "input": "Quhneitra",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY14",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0009",
+   "input": "Hama Governorate",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY05",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0010",
+   "input": "hama",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY05",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0011",
+   "input": "Hamma",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY05",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0012",
+   "input": "Av-Hasakeh",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY08",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0013",
+   "input": "Al Hasakeh",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY08",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0014",
+   "input": "Hasakeh",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY08",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0015",
+   "input": "DAR'A",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY12",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0016",
+   "input": "Dar'a Province",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY12",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0017",
+   "input": "Rural Damascous",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY03",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0018",
+   "input": "Rural Damascus State",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY03",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0019",
+   "input": "Rural aDmascus",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY03",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0020",
+   "input": "aleppo",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY02",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0021",
+   "input": "Aleppo Governorate",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY02",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0022",
+   "input": "Alveppo",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY02",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0023",
+   "input": "Idleb Region",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY07",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0024",
+   "input": "idleb",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY07",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0025",
+   "input": "Tardtous",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY10",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0026",
+   "input": "TARTOUS",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY10",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0027",
+   "input": "Tartus",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY10",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0028",
+   "input": "Latvakia",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY06",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0029",
+   "input": "Latakia",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY06",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0030",
+   "input": "LATTAKIA",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY06",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0031",
+   "input": "Ar-Raqqa State",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY11",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0032",
+   "input": "Ar-Rqaqa",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY11",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0033",
+   "input": "Ar-Raqka",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY11",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0034",
+   "input": "deir-ez-zor",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY09",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0035",
+   "input": "Deir ez Zor",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY09",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0036",
+   "input": "Deir-ez-Zor Governorate",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY09",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0037",
+   "input": "Homs Region",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": "SY04",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0038",
+   "input": "At-Tall",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0304",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0039",
+   "input": "A Tall",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0304",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0040",
+   "input": "At Tall District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0304",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0041",
+   "input": "Masyaf",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0504",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0042",
+   "input": "Msyaf",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0504",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0043",
+   "input": "Masiaf",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0504",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0044",
+   "input": "tadmor",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0405",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0045",
+   "input": "Tadmro",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0405",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0046",
+   "input": "Tadmor District",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0405",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0047",
+   "input": "hama",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0501",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0048",
+   "input": "Hama District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0501",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0049",
+   "input": "Hamma",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0501",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0050",
+   "input": "Abu-Kamal",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0902",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0051",
+   "input": "Abu Kamla",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0902",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0052",
+   "input": "Abou Kamal",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0902",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0053",
+   "input": "Mayadin",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0903",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0054",
+   "input": "Al Maiadin",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0903",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0055",
+   "input": "Al-Mayadin",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0903",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0056",
+   "input": "Lattaqia",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY06",
+   "expected": "SY0600",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0057",
+   "input": "Lattakia LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY06",
+   "expected": "SY0600",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0058",
+   "input": "Lattzkia",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY06",
+   "expected": "SY0600",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0059",
+   "input": "Aqr-Rastan",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0404",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0060",
+   "input": "Rastan",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0404",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0061",
+   "input": "Ar Rastan",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0404",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0062",
+   "input": "Shahba District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1303",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0063",
+   "input": "SHAHBA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1303",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0064",
+   "input": "Shhaba",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1303",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0065",
+   "input": "Yabroud",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0305",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0066",
+   "input": "YABROUD",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0305",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0067",
+   "input": "Yabrotd",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0305",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0068",
+   "input": "Jabah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0602",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0069",
+   "input": "Jablah District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0602",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0070",
+   "input": "Jablakh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0602",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0071",
+   "input": "As-Slaamiyeh",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0503",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0072",
+   "input": "As-Salamiyeh District",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0503",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0073",
+   "input": "As-Sallamiyeh",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0503",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0074",
+   "input": "Quneitra",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY14",
+   "expected": "SY1400",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0075",
+   "input": "Quneptra",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY14",
+   "expected": "SY1400",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0076",
+   "input": "Quneitra District",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY14",
+   "expected": "SY1400",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0077",
+   "input": "Malikeyyeh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0803",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0078",
+   "input": "Al Malikeyyeh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0803",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0079",
+   "input": "Al-Malikeyyeh District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0803",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0080",
+   "input": "Quamichli",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0802",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0081",
+   "input": "Quamishil",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0802",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0082",
+   "input": "Quamishli LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0802",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0083",
+   "input": "Darayya",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0309",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0084",
+   "input": "DARAYYA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0309",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0085",
+   "input": "Darauyya",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0309",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0086",
+   "input": "Ath-Thawrakh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1103",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0087",
+   "input": "Ath-Thawrah County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1103",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0088",
+   "input": "ath-thawrah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1103",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0089",
+   "input": "Ar-Raqqa",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1101",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0090",
+   "input": "ar-raqqa",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1101",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0091",
+   "input": "Raqqa",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1101",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0092",
+   "input": "Menbij District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0205",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0093",
+   "input": "menbij",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0205",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0094",
+   "input": "Menbidj",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0205",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0095",
+   "input": "Al-Hasaqeh",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0800",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0096",
+   "input": "Al Hasakeh",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0800",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0097",
+   "input": "al-hasakeh",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0800",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0098",
+   "input": "Qadmous",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1006",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0099",
+   "input": "Qadmdus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1006",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0100",
+   "input": "Qadmus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1006",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0101",
+   "input": "Salkhad",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1302",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0102",
+   "input": "salkhad",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1302",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0103",
+   "input": "Salkhad Department",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1302",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0104",
+   "input": "safita",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1003",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0105",
+   "input": "Safita LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1003",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0106",
+   "input": "Safitta",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1003",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0107",
+   "input": "Az-Zabdani",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0307",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0108",
+   "input": "Az Zabdani",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0307",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0109",
+   "input": "Az-Zabdanni",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0307",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0110",
+   "input": "Suqaylabiyah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0502",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0111",
+   "input": "As-Suqaylabiyah LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0502",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0112",
+   "input": "As Suqaylabiyah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0502",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0113",
+   "input": "Rural Damascus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0301",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0114",
+   "input": "rural damascus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0301",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0115",
+   "input": "Rural-Damascus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0301",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0116",
+   "input": "Rsa Al Ain",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0804",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0117",
+   "input": "ras al ain",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0804",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0118",
+   "input": "Ras Al Ein",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY08",
+   "expected": "SY0804",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0119",
+   "input": "Ain Al Arab District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0206",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0120",
+   "input": "Ain-Al-Arab",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0206",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0121",
+   "input": "Ain Al Arrab",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0206",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0122",
+   "input": "Sanamayn",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1202",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0123",
+   "input": "As-Sanamain",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1202",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0124",
+   "input": "As-anamayn",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1202",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0125",
+   "input": "An Nabk",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0306",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0126",
+   "input": "Nabk",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0306",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0127",
+   "input": "An Nabk LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0306",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0128",
+   "input": "A'zaz County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0204",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0129",
+   "input": "A'Zaz",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0204",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0130",
+   "input": "Al-Qadraha",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0604",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0131",
+   "input": "Al-Kardaha",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0604",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0132",
+   "input": "Al Qardaha",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0604",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0133",
+   "input": "Harim County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0703",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0134",
+   "input": "HARIM",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0703",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0135",
+   "input": "Harrim",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0703",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0136",
+   "input": "Tall Kalakh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0403",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0137",
+   "input": "Tall Kalakh County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0403",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0138",
+   "input": "Tall-Kalakh",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0403",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0139",
+   "input": "Al Fiq",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1402",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0140",
+   "input": "Al-Fiq",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1402",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0141",
+   "input": "Al kFiq",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1402",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0142",
+   "input": "Al-Hafa",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0603",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0143",
+   "input": "Haffa",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0603",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0144",
+   "input": "AL-HAFFA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0603",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0145",
+   "input": "Homs",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0401",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0146",
+   "input": "Homs County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0401",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0147",
+   "input": "homs",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0401",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0148",
+   "input": "Jarablus",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0208",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0149",
+   "input": "Jrablus",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0208",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0150",
+   "input": "Jarablus LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0208",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0151",
+   "input": "Tartous LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1000",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0152",
+   "input": "Tartus",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1000",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0153",
+   "input": "Tavtous",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1000",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0154",
+   "input": "Jebel Satan",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY02",
+   "expected": "SY0200",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0155",
+   "input": "Jebel-Saman",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY02",
+   "expected": "SY0200",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0156",
+   "input": "jebel saman",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY02",
+   "expected": "SY0200",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0157",
+   "input": "DAR'A",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY12",
+   "expected": "SY1200",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0158",
+   "input": "Dar'a County",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY12",
+   "expected": "SY1200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0159",
+   "input": "Afrin District",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY02",
+   "expected": "SY0203",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0160",
+   "input": "AFRIN",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY02",
+   "expected": "SY0203",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0161",
+   "input": "Al-Qusayr",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0402",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0162",
+   "input": "Al-Qyusayr",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0402",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0163",
+   "input": "Al-Qusayr County",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY04",
+   "expected": "SY0402",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0164",
+   "input": "Al-Ma'ra",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0702",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0165",
+   "input": "Ma'ra",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0702",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0166",
+   "input": "AL MA'RA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0702",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0167",
+   "input": "al qutayfah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0303",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0168",
+   "input": "Qutayfah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0303",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0169",
+   "input": "Al Quttayfah",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0303",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0170",
+   "input": "Douma",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0302",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0171",
+   "input": "Duma LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0302",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0172",
+   "input": "DAMASCUS",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0100",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0173",
+   "input": "Damascous",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0100",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0174",
+   "input": "Damascms",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0100",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0175",
+   "input": "Qattana",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0308",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0176",
+   "input": "Qataa",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0308",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0177",
+   "input": "Qatana District",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY03",
+   "expected": "SY0308",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0178",
+   "input": "Bynyas",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1002",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0179",
+   "input": "Banias",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1002",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0180",
+   "input": "Banyas Department",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1002",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0181",
+   "input": "Sweida",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1300",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0182",
+   "input": "As-Sweida District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1300",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0183",
+   "input": "As Sweida",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1300",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0184",
+   "input": "Draikish",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1004",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0185",
+   "input": "Dreikish District",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1004",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0186",
+   "input": "Driekish",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY1004",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0187",
+   "input": "Muhradah",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0505",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0188",
+   "input": "Muhraddah",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0505",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0189",
+   "input": "muhradah",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY05",
+   "expected": "SY0505",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0190",
+   "input": "Ariha County",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY07",
+   "expected": "SY0705",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0191",
+   "input": "Arikha",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY07",
+   "expected": "SY0705",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0192",
+   "input": "ariha",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY07",
+   "expected": "SY0705",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0193",
+   "input": "izra'",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY12",
+   "expected": "SY1203",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0194",
+   "input": "Izra' Department",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY12",
+   "expected": "SY1203",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0195",
+   "input": "Al rab",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0202",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0196",
+   "input": "Al Bab County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0202",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0197",
+   "input": "Bab",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0202",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0198",
+   "input": "Tell Abiad",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1102",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0199",
+   "input": "TELL ABIAD",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1102",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0200",
+   "input": "Tel Abiad",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY11",
+   "expected": "SY1102",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0201",
+   "input": "Al Makhrim LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0406",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0202",
+   "input": "Al Mahkrim",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0406",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0203",
+   "input": "Al-Makhrim",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0406",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0204",
+   "input": "Safira",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0207",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0205",
+   "input": "As-Safira County",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0207",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0206",
+   "input": "As-Safiar",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0207",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0207",
+   "input": "Jisr-Ash-Shugur",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0704",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0208",
+   "input": "Jisr-Asmh-Shugur",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0704",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0209",
+   "input": "jisr-ash-shugur",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0704",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0210",
+   "input": "Idleb Department",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0700",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0211",
+   "input": "idleb",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": "SY0700",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0212",
+   "input": "Deir-ez-Zor Department",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0901",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0213",
+   "input": "Deixr-ez-Zor",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0901",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0214",
+   "input": "Dair-Ez-Zor",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY09",
+   "expected": "SY0901",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0215",
+   "input": "Sheikd Badr",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1005",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0216",
+   "input": "Sheikh Badr LGA",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1005",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0217",
+   "input": "sheikh badr",
+   "iso3": "SYR",
+   "level": 2,
+   "parent": "SY10",
+   "expected": "SY1005",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0218",
+   "input": "Menbij Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0219",
+   "input": "Menbidj",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020500",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0220",
+   "input": "Maenbij",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020500",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0221",
+   "input": "TABNI",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090104",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0222",
+   "input": "Tabni Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090104",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0223",
+   "input": "Khasham Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090105",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0224",
+   "input": "Khasam",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090105",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0225",
+   "input": "khasham",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090105",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0226",
+   "input": "Hamam Wasil Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1006",
+   "expected": "SY100603",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0227",
+   "input": "Hamam-Wasil",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1006",
+   "expected": "SY100603",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0228",
+   "input": "Hyamam Wasil",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1006",
+   "expected": "SY100603",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0229",
+   "input": "Ma'btali Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020306",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0230",
+   "input": "Ma'rtali",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020306",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0231",
+   "input": "Ma'Btali",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020306",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0232",
+   "input": "Ein El-Bayda Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060003",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0233",
+   "input": "Ein El Bayda",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060003",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0234",
+   "input": "ein el-bayda",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060003",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0235",
+   "input": "Badama",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070401",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0236",
+   "input": "Badarma",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070401",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0237",
+   "input": "Badama Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070401",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0238",
+   "input": "Heish",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070205",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0239",
+   "input": "Heich",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070205",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0240",
+   "input": "HEISH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070205",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0241",
+   "input": "Ein Issa Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1102",
+   "expected": "SY110202",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0242",
+   "input": "Ein-Issa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1102",
+   "expected": "SY110202",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0243",
+   "input": "ein issa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1102",
+   "expected": "SY110202",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0244",
+   "input": "Salkhad Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0245",
+   "input": "Salhad",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130200",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0246",
+   "input": "Slakhad",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130200",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0247",
+   "input": "Abul-Thohur",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070001",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0248",
+   "input": "Ablu Thohur",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070001",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0249",
+   "input": "Abul Thohur Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070001",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0250",
+   "input": "Kazr Zeita",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050501",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0251",
+   "input": "Kafr Zeita Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050501",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0252",
+   "input": "Kafr Zaita",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050501",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0253",
+   "input": "Safsafa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100006",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0254",
+   "input": "Sfasafa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100006",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0255",
+   "input": "Safsafa Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100006",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0256",
+   "input": "Ein Halakim",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050403",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0257",
+   "input": "Ein-Halaqim",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050403",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0258",
+   "input": "Ein Halaqim Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050403",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0259",
+   "input": "Agkhtrin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020401",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0260",
+   "input": "Aghbtrin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020401",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0261",
+   "input": "Aghtrin Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020401",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0262",
+   "input": "Qunaitra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140000",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0263",
+   "input": "Quneitra Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140000",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0264",
+   "input": "quneitra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140000",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0265",
+   "input": "Eastern Kwaies",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020204",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0266",
+   "input": "EASTERN KWAIRES",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020204",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0267",
+   "input": "Eastern Kweires",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020204",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0268",
+   "input": "Maskana",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020503",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0269",
+   "input": "Masqana",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020503",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0270",
+   "input": "Mxskana",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020503",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0271",
+   "input": "Armanaz",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070305",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0272",
+   "input": "Armannaz",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070305",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0273",
+   "input": "armanaz",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070305",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0274",
+   "input": "SARMIN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070006",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0275",
+   "input": "Smrmin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070006",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0276",
+   "input": "Sarmin Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070006",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0277",
+   "input": "Bulbul Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020301",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0278",
+   "input": "Bulrbul",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0279",
+   "input": "Bulboul",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0280",
+   "input": "Tamanaah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070204",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0281",
+   "input": "Tamalnaah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070204",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0282",
+   "input": "TAMANAAH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070204",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0283",
+   "input": "Qastal-Maaf",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060004",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0284",
+   "input": "Qastal Maaf Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060004",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0285",
+   "input": "Qatsal Maaf",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060004",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0286",
+   "input": "Ma'arrat An Nu'man",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070200",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0287",
+   "input": "Ma'arrat An Nu'man Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0288",
+   "input": "Ma'Arat An Nu'Man",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070200",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0289",
+   "input": "Kisrleh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090101",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0290",
+   "input": "KISREH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090101",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0291",
+   "input": "Kisreh Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090101",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0292",
+   "input": "Homs",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040100",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0293",
+   "input": "Homs Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040100",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0294",
+   "input": "HOMS",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040100",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0295",
+   "input": "Kansabba",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060303",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0296",
+   "input": "Kansaba Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060303",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0297",
+   "input": "Kamsaba",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060303",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0298",
+   "input": "Tadmor Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0299",
+   "input": "Tadomr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040500",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0300",
+   "input": "TADMOR",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040500",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0301",
+   "input": "Masnura",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1103",
+   "expected": "SY110301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0302",
+   "input": "MANSURA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1103",
+   "expected": "SY110301",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0303",
+   "input": "Mansurra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1103",
+   "expected": "SY110301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0304",
+   "input": "AR-RA'EE",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020203",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0305",
+   "input": "Ar Ra'ee",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020203",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0306",
+   "input": "Ar-Ra'ee Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020203",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0307",
+   "input": "Hamra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050103",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0308",
+   "input": "Hamra Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050103",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0309",
+   "input": "hamra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050103",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0310",
+   "input": "sheikh miskine",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120304",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0311",
+   "input": "Sheikh-Miskine",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120304",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0312",
+   "input": "Sheiky Miskine",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120304",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0313",
+   "input": "Mashta Elkhiu",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0314",
+   "input": "Mashta-Elhiu",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100301",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0315",
+   "input": "Mashta Elhui",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0316",
+   "input": "jebel saman",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020000",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0317",
+   "input": "Jebel-Saman",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020000",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0318",
+   "input": "Jebel Saman Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020000",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0319",
+   "input": "Hadadi",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060006",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0320",
+   "input": "Hanadi Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060006",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0321",
+   "input": "HANADI",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0600",
+   "expected": "SY060006",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0322",
+   "input": "Al Mayadin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090300",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0323",
+   "input": "Al Mayuadin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090300",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0324",
+   "input": "Al Maiadin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090300",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0325",
+   "input": "Maliha Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030104",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0326",
+   "input": "Malikha",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030104",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0327",
+   "input": "Maliah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030104",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0328",
+   "input": "Ar-castan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040400",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0329",
+   "input": "Rastan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040400",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0330",
+   "input": "Ar Rastan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040400",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0331",
+   "input": "Talin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100206",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0332",
+   "input": "taleen",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100206",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0333",
+   "input": "Taleen Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100206",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0334",
+   "input": "Qahtgniyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080203",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0335",
+   "input": "Qahtanniyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080203",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0336",
+   "input": "Qahtaniyyeh Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080203",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0337",
+   "input": "Harf Elmseitra Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060401",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0338",
+   "input": "Harf-Elmseitra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060401",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0339",
+   "input": "Harf Elmsaitra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060401",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0340",
+   "input": "Quammishli",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080200",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0341",
+   "input": "Quamishli Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0342",
+   "input": "quamishli",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080200",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0343",
+   "input": "Kherbet Ghzaala",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120002",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0344",
+   "input": "kherbet ghazala",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120002",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0345",
+   "input": "Kherbet-Ghazala",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120002",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0346",
+   "input": "Saraqab Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070003",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0347",
+   "input": "Sarraqab",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070003",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0348",
+   "input": "Sarabab",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070003",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0349",
+   "input": "Ziiara",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0502",
+   "expected": "SY050202",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0350",
+   "input": "Ziyara Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0502",
+   "expected": "SY050202",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0351",
+   "input": "ziyara",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0502",
+   "expected": "SY050202",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0352",
+   "input": "Jobet Berghal Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060403",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0353",
+   "input": "JOBET BERGHAL",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060403",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0354",
+   "input": "Jobket Berghal",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0604",
+   "expected": "SY060403",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0355",
+   "input": "Da'el",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120004",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0356",
+   "input": "Da'el Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120004",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0357",
+   "input": "Da'El",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120004",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0358",
+   "input": "Ybaroud",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0305",
+   "expected": "SY030500",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0359",
+   "input": "Yabrud",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0305",
+   "expected": "SY030500",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0360",
+   "input": "Yabroud Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0305",
+   "expected": "SY030500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0361",
+   "input": "Khanaser Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020701",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0362",
+   "input": "Khanaesr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020701",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0363",
+   "input": "khanaser",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020701",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0364",
+   "input": "Qourqeena",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070304",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0365",
+   "input": "QOURQEENA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070304",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0366",
+   "input": "Qouqreena",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070304",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0367",
+   "input": "Sadad",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040109",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0368",
+   "input": "Saddad",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040109",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0369",
+   "input": "Sadad Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040109",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0370",
+   "input": "Haritan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020003",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0371",
+   "input": "HARITAN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020003",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0372",
+   "input": "Hraitan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020003",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0373",
+   "input": "Amuda Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080202",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0374",
+   "input": "AMUDA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080202",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0375",
+   "input": "Ammuda",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080202",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0376",
+   "input": "Sanamayn",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1202",
+   "expected": "SY120200",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0377",
+   "input": "As-Sanamayn Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1202",
+   "expected": "SY120200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0378",
+   "input": "As-Sanammayn",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1202",
+   "expected": "SY120200",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0379",
+   "input": "Muhasan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090103",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0380",
+   "input": "Muhasan Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090103",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0381",
+   "input": "MUHASAN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0901",
+   "expected": "SY090103",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0382",
+   "input": "Darbasiyakh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080401",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0383",
+   "input": "Dorbasiyah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080401",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0384",
+   "input": "Darbasiyah Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080401",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0385",
+   "input": "Al Bab",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020200",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0386",
+   "input": "Al Bab Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0387",
+   "input": "Al Bb",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0202",
+   "expected": "SY020200",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0388",
+   "input": "Masaada Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140003",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0389",
+   "input": "Masada",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140003",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0390",
+   "input": "Masaadda",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140003",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0391",
+   "input": "Soda Khawabi",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100004",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0392",
+   "input": "Soda Khaawbi",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100004",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0393",
+   "input": "Soda Hawabi",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100004",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0394",
+   "input": "Hadideh Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0403",
+   "expected": "SY040301",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0395",
+   "input": "Haddeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0403",
+   "expected": "SY040301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0396",
+   "input": "Hadidekh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0403",
+   "expected": "SY040301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0397",
+   "input": "Bennsh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070002",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0398",
+   "input": "Bensnh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070002",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0399",
+   "input": "Bennch",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070002",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0400",
+   "input": "Darkosh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070402",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0401",
+   "input": "Daroksh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070402",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0402",
+   "input": "Darqosh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0704",
+   "expected": "SY070402",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0403",
+   "input": "As-Salammiyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0503",
+   "expected": "SY050300",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0404",
+   "input": "as-salamiyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0503",
+   "expected": "SY050300",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0405",
+   "input": "As-Salamiyeh Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0503",
+   "expected": "SY050300",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0406",
+   "input": "OJ",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050402",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0407",
+   "input": "Odj",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050402",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0408",
+   "input": "Oj Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0504",
+   "expected": "SY050402",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0409",
+   "input": "KHERBET TIN NOOR",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040102",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0410",
+   "input": "Kherbet-Tin-Noor",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040102",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0411",
+   "input": "Kherbet Tin Noor Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040102",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0412",
+   "input": "Talbiseh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040401",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0413",
+   "input": "talbiseh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040401",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0414",
+   "input": "Talbisseh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0404",
+   "expected": "SY040401",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0415",
+   "input": "Mahin Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040107",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0416",
+   "input": "Makhin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040107",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0417",
+   "input": "Shvran",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020304",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0418",
+   "input": "Sharan Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020304",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0419",
+   "input": "Sharran",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020304",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0420",
+   "input": "Nawa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120303",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0421",
+   "input": "NAWA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120303",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0422",
+   "input": "Nawa Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1203",
+   "expected": "SY120303",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0423",
+   "input": "Salanfa Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060301",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0424",
+   "input": "Sallanfa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0425",
+   "input": "Saylanfa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0603",
+   "expected": "SY060301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0426",
+   "input": "Mseqifra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120007",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0427",
+   "input": "Mseifra Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120007",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0428",
+   "input": "mseifra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120007",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0429",
+   "input": "Al-Malikeyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0803",
+   "expected": "SY080300",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0430",
+   "input": "Al-Maliqeyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0803",
+   "expected": "SY080300",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0431",
+   "input": "Al Malikeyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0803",
+   "expected": "SY080300",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0432",
+   "input": "Bait Jan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030801",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0433",
+   "input": "Bait Jan Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030801",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0434",
+   "input": "Bait-Jan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030801",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0435",
+   "input": "Tal Hmis",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080201",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0436",
+   "input": "Tal Hmis Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080201",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0437",
+   "input": "Tal Khmis",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0802",
+   "expected": "SY080201",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0438",
+   "input": "Arwad Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100001",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0439",
+   "input": "ARWAD",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1000",
+   "expected": "SY100001",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0440",
+   "input": "Jaramanna",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030103",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0441",
+   "input": "JARAMANA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030103",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0442",
+   "input": "Jaramaca",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030103",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0443",
+   "input": "Harbannifse",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050102",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0444",
+   "input": "Harbnaifse",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050102",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0445",
+   "input": "Harbanifse Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050102",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0446",
+   "input": "Rawda Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100201",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0447",
+   "input": "zarbah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020005",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0448",
+   "input": "Zarbaah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020005",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0449",
+   "input": "Zarbah Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0200",
+   "expected": "SY020005",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0450",
+   "input": "Qatanna",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030800",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0451",
+   "input": "Qatana Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030800",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0452",
+   "input": "qatana",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0308",
+   "expected": "SY030800",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0453",
+   "input": "Jalaa Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090202",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0454",
+   "input": "jalaa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090202",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0455",
+   "input": "Jallaa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090202",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0456",
+   "input": "Qarrayya",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130201",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0457",
+   "input": "Qarayya Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130201",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0458",
+   "input": "qarayya",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130201",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0459",
+   "input": "al-qusayr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0402",
+   "expected": "SY040200",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0460",
+   "input": "Al-Qusoyr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0402",
+   "expected": "SY040200",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0461",
+   "input": "Al-Qussayr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0402",
+   "expected": "SY040200",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0462",
+   "input": "Bousra Esh-Sham",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120001",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0463",
+   "input": "busra esh-sham",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120001",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0464",
+   "input": "Busra Esh-Sham Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120001",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0465",
+   "input": "Thiban",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090301",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0466",
+   "input": "Thbian",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090301",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0467",
+   "input": "Tkhiban",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0903",
+   "expected": "SY090301",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0468",
+   "input": "Ehsem",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070501",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0469",
+   "input": "Ekhsem",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070501",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0470",
+   "input": "Ehsem Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070501",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0471",
+   "input": "ASH-SHAJARA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120003",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0472",
+   "input": "Ash-Shajara Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120003",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0473",
+   "input": "Ash-Shadjara",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1200",
+   "expected": "SY120003",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0474",
+   "input": "Al-Khashniyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140002",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0475",
+   "input": "Al-Khasniyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140002",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0476",
+   "input": "Khashniyyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1400",
+   "expected": "SY140002",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0477",
+   "input": "BANYAS",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100200",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0478",
+   "input": "Bkanyas",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100200",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0479",
+   "input": "Banyas Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1002",
+   "expected": "SY100200",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0480",
+   "input": "Radju",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020303",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0481",
+   "input": "RAJU",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020303",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0482",
+   "input": "Raju Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0203",
+   "expected": "SY020303",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0483",
+   "input": "Ras Al Ain",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080400",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0484",
+   "input": "Ras Al Ain Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080400",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0485",
+   "input": "RAS AL AIN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0804",
+   "expected": "SY080400",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0486",
+   "input": "Gharieh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130202",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0487",
+   "input": "Gharmeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130202",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0488",
+   "input": "gharyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130202",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0489",
+   "input": "Karama",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1101",
+   "expected": "SY110102",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0490",
+   "input": "karama",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1101",
+   "expected": "SY110102",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0491",
+   "input": "Knrama",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1101",
+   "expected": "SY110102",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0492",
+   "input": "As Safira",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020700",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0493",
+   "input": "As-Safira Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020700",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0494",
+   "input": "As-Safirra",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0207",
+   "expected": "SY020700",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0495",
+   "input": "Nabul",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020404",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0496",
+   "input": "Nabul Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020404",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0497",
+   "input": "Naboul",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020404",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0498",
+   "input": "Sibbeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100303",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0499",
+   "input": "Sibbeh Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100303",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0500",
+   "input": "SIBBEH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1003",
+   "expected": "SY100303",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0501",
+   "input": "Khan Shaykun",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070201",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0502",
+   "input": "Khan Shaykun Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070201",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0503",
+   "input": "Khan Shayqun",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0702",
+   "expected": "SY070201",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0504",
+   "input": "Muhraoah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050500",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0505",
+   "input": "Muhradah Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0506",
+   "input": "Mouhradah",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0505",
+   "expected": "SY050500",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0507",
+   "input": "Milh Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130204",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0508",
+   "input": "Milkh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130204",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0509",
+   "input": "milh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1302",
+   "expected": "SY130204",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0510",
+   "input": "Raqama",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040105",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0511",
+   "input": "Raaqma",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040105",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0512",
+   "input": "Raqama Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0401",
+   "expected": "SY040105",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0513",
+   "input": "DREIKISH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100400",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0514",
+   "input": "Dreiksh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100400",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0515",
+   "input": "Dreikish Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100400",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0516",
+   "input": "Damascus",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0100",
+   "expected": "SY010000",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0517",
+   "input": "Dammascus",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0100",
+   "expected": "SY010000",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0518",
+   "input": "Damascus Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0100",
+   "expected": "SY010000",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0519",
+   "input": "Areesheh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0800",
+   "expected": "SY080005",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0520",
+   "input": "areesheh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0800",
+   "expected": "SY080005",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0521",
+   "input": "Areesheh Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0800",
+   "expected": "SY080005",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0522",
+   "input": "Sheih Badr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1005",
+   "expected": "SY100500",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0523",
+   "input": "Sheikh-Badr",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1005",
+   "expected": "SY100500",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0524",
+   "input": "Sheikh Badr Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1005",
+   "expected": "SY100500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0525",
+   "input": "SURAN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050101",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0526",
+   "input": "Suran Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050101",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0527",
+   "input": "Surran",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0501",
+   "expected": "SY050101",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0528",
+   "input": "Maaret-Tamsrin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070005",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0529",
+   "input": "Maaret Tausrin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070005",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0530",
+   "input": "Maarret Tamsrin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0700",
+   "expected": "SY070005",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0531",
+   "input": "Suluk Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1102",
+   "expected": "SY110201",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0532",
+   "input": "Suluq",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1102",
+   "expected": "SY110201",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0533",
+   "input": "Salkin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070302",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0534",
+   "input": "Saliqn",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070302",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0535",
+   "input": "salqin",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0703",
+   "expected": "SY070302",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0536",
+   "input": "Dwair Raslan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100403",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0537",
+   "input": "Dewir Raslan",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100403",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0538",
+   "input": "DWEIR RASLAN",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1004",
+   "expected": "SY100403",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0539",
+   "input": "sokhneh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040501",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0540",
+   "input": "Sokhneh Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040501",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0541",
+   "input": "Sohneh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0405",
+   "expected": "SY040501",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0542",
+   "input": "Marqaz Darayya",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0309",
+   "expected": "SY030900",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0543",
+   "input": "Markaz Darayya Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0309",
+   "expected": "SY030900",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0544",
+   "input": "markaz darayya",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0309",
+   "expected": "SY030900",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0545",
+   "input": "Ei Shaqaq",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060203",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0546",
+   "input": "ein shaqaq",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060203",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0547",
+   "input": "Ein Chaqaq",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060203",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0548",
+   "input": "Arikha",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070500",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0549",
+   "input": "ARIHA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070500",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0550",
+   "input": "Ariha Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0705",
+   "expected": "SY070500",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0551",
+   "input": "SUSAT",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090203",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0552",
+   "input": "Susat Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090203",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0553",
+   "input": "Sussat",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0902",
+   "expected": "SY090203",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0554",
+   "input": "Al-Hafsa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020502",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0555",
+   "input": "Khafsa",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020502",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0556",
+   "input": "Al-Khafsa Ward",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0205",
+   "expected": "SY020502",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0557",
+   "input": "Ein-Elsharqiyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060201",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0558",
+   "input": "Ein Elshaqiyeh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060201",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0559",
+   "input": "Ein Elsharqiieh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0602",
+   "expected": "SY060201",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0560",
+   "input": "Shakhba",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1303",
+   "expected": "SY130300",
+   "noise": "translit"
+  },
+  {
+   "id": "SYR-0561",
+   "input": "SHAHBA",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1303",
+   "expected": "SY130300",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0562",
+   "input": "Shapba",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY1303",
+   "expected": "SY130300",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0563",
+   "input": "Al Makrhim",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0406",
+   "expected": "SY040600",
+   "noise": "typo"
+  },
+  {
+   "id": "SYR-0564",
+   "input": "AL MAKHRIM",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0406",
+   "expected": "SY040600",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0565",
+   "input": "Makhrim",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0406",
+   "expected": "SY040600",
+   "noise": "article"
+  },
+  {
+   "id": "SYR-0566",
+   "input": "Kisweh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030101",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0567",
+   "input": "KISWEH",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030101",
+   "noise": "case"
+  },
+  {
+   "id": "SYR-0568",
+   "input": "Kisweh Sub-district",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0301",
+   "expected": "SY030101",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0569",
+   "input": "Lower Shyookh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0206",
+   "expected": "SY020601",
+   "noise": "exact"
+  },
+  {
+   "id": "SYR-0570",
+   "input": "Lower-Shyookh",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0206",
+   "expected": "SY020601",
+   "noise": "spacing"
+  },
+  {
+   "id": "SYR-0571",
+   "input": "Lower Shyookh Commune",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0206",
+   "expected": "SY020601",
+   "noise": "level_word"
+  },
+  {
+   "id": "SYR-0572",
+   "input": "Suran",
+   "iso3": "SYR",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "SYR-0573",
+   "input": "Suran",
+   "iso3": "SYR",
+   "level": 3,
+   "parent": "SY0204",
+   "expected": "SY020405",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "SYR-0574",
+   "input": "Etsako East",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0575",
+   "input": "Birnin-Gwari",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0576",
+   "input": "Oshodi-Isolo",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0577",
+   "input": "Vandeikya",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0578",
+   "input": "Etche",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0579",
+   "input": "Kubau",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0580",
+   "input": "Madarounfa",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0581",
+   "input": "Pategi",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0582",
+   "input": "Aniocha South",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0583",
+   "input": "Bonny",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0584",
+   "input": "Aiyedade",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0585",
+   "input": "Ibiono Ibom",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0586",
+   "input": "Gwale",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0587",
+   "input": "Gwer East",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0588",
+   "input": "Igabi",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0589",
+   "input": "Akoko-Edo",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0590",
+   "input": "Ijebu North East",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0591",
+   "input": "Augie",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0592",
+   "input": "Dunukofia",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0593",
+   "input": "Warri North",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0594",
+   "input": "Bankilaré",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0595",
+   "input": "Ife East",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0596",
+   "input": "Atakumosa East",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0597",
+   "input": "Belbedji",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0598",
+   "input": "Bauchi",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0599",
+   "input": "Ilejemeji",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0600",
+   "input": "Ife Central",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0601",
+   "input": "Aboh-Mbaise",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0602",
+   "input": "Biase",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0603",
+   "input": "Borno",
+   "iso3": "SYR",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0604",
+   "input": "Gezawa",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0605",
+   "input": "Orumba South",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0606",
+   "input": "Akure North",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0607",
+   "input": "Igueben",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0608",
+   "input": "Konshisha",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0609",
+   "input": "Toungo",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0610",
+   "input": "Nnewi South",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0611",
+   "input": "Afikpo South",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0612",
+   "input": "Bindawa",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "SYR-0613",
+   "input": "Andoni",
+   "iso3": "SYR",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  }
+ ]
+}

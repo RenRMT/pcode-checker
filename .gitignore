@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.venv/
+__pycache__/
+.pytest_cache/
+data-build/.cache/
+# Built data lives on the `data` branch, not main
+site/
+.env

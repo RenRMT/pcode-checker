@@ -1,0 +1,4 @@
+{
+  "description": "Fixture case ids where the TS hdx port (packages/core/src/hdx.ts) may deliberately differ from hdx-python-country, with the reason. packages/core/test/hdx.test.ts skips these. Empty: the port agrees on every case.",
+  "differences": {}
+}

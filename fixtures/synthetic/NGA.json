@@ -1,0 +1,7551 @@
+{
+ "iso3": "NGA",
+ "version": "v01",
+ "seed": 20261011,
+ "cases": [
+  {
+   "id": "NGA-0000",
+   "input": "Borno",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG008",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0001",
+   "input": "Borno State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0002",
+   "input": "BORNO",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0003",
+   "input": "Bauhci",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0004",
+   "input": "Bauchi Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0005",
+   "input": "BAUCHI",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0006",
+   "input": "Oyo",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG031",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0007",
+   "input": "Oio",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG031",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0008",
+   "input": "OYO",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG031",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0009",
+   "input": "Osun",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG030",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0010",
+   "input": "Osun Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG030",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0011",
+   "input": "Osoun",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG030",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0012",
+   "input": "Abia",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG001",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0013",
+   "input": "Abia State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0014",
+   "input": "LAGOS",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG025",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0015",
+   "input": "Lagos State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG025",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0016",
+   "input": "Kaduna Governorate",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG019",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0017",
+   "input": "Kadzuna",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG019",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0018",
+   "input": "Kadouna",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG019",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0019",
+   "input": "Katsina State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG021",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0020",
+   "input": "Katsiva",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG021",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0021",
+   "input": "katsina",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG021",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0022",
+   "input": "RIVERS",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG033",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0023",
+   "input": "Rivers State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG033",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0024",
+   "input": "Ruvers",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG033",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0025",
+   "input": "Jigawa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG018",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0026",
+   "input": "Jigwa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG018",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0027",
+   "input": "Jigawa Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG018",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0028",
+   "input": "Adammawa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0029",
+   "input": "Aamawa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0030",
+   "input": "Adamawa Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0031",
+   "input": "Tarabba",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG035",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0032",
+   "input": "taraba",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG035",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0033",
+   "input": "Taruba",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG035",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0034",
+   "input": "Ogun Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG028",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0035",
+   "input": "OGUN",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG028",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0036",
+   "input": "Ogoun",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG028",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0037",
+   "input": "Eqiti",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0038",
+   "input": "Ekiti Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0039",
+   "input": "Nasarawa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG026",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0040",
+   "input": "Nasarawa Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG026",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0041",
+   "input": "Nasartawa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG026",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0042",
+   "input": "Delta",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0043",
+   "input": "Delta Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0044",
+   "input": "DELTA",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0045",
+   "input": "Yobe",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG036",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0046",
+   "input": "Yobbe",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG036",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0047",
+   "input": "YOBE",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG036",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0048",
+   "input": "Kanno",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG020",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0049",
+   "input": "kano",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG020",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0050",
+   "input": "Kano Governorate",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG020",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0051",
+   "input": "Gombe Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0052",
+   "input": "Kebi",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG022",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0053",
+   "input": "Kebbi State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG022",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0054",
+   "input": "Ebonyi Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0055",
+   "input": "Ebonii",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG011",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0056",
+   "input": "ebonyi",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0057",
+   "input": "Kwara",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG024",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0058",
+   "input": "KWARA",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG024",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0059",
+   "input": "Kwarra",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG024",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0060",
+   "input": "Baielsa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0061",
+   "input": "Bayelsa Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0062",
+   "input": "bayelsa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0063",
+   "input": "Akwa Ibom",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG003",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0064",
+   "input": "akwa ibom",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0065",
+   "input": "Akwa Ibzm",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0066",
+   "input": "Niger",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG027",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0067",
+   "input": "niger",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG027",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0068",
+   "input": "Niger State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG027",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0069",
+   "input": "Anambra Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0070",
+   "input": "anambra",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0071",
+   "input": "Aanambra",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0072",
+   "input": "Plateau",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG032",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0073",
+   "input": "Plateau Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG032",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0074",
+   "input": "plateau",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG032",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0075",
+   "input": "Ondo",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG029",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0076",
+   "input": "Ondo Governorate",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG029",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0077",
+   "input": "ondo",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG029",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0078",
+   "input": "Cross-River",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG009",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0079",
+   "input": "CROSS RIVER",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0080",
+   "input": "Cros River",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0081",
+   "input": "Benue State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0082",
+   "input": "BENUE",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0083",
+   "input": "Bennue",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0084",
+   "input": "Federal Capital erritory",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG015",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0085",
+   "input": "Federal Capital Territory State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG015",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0086",
+   "input": "FEDERAL CAPITAL TERRITORY",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG015",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0087",
+   "input": "Imo Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG017",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0088",
+   "input": "IMO",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG017",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0089",
+   "input": "Enugu",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG014",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0090",
+   "input": "Enugou",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG014",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0091",
+   "input": "Enugu Region",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG014",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0092",
+   "input": "KOGI",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG023",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0093",
+   "input": "Kogi Province",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG023",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0094",
+   "input": "Edo",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG012",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0095",
+   "input": "Edo State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0096",
+   "input": "Zzamfara",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG037",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0097",
+   "input": "Zamfara Governorate",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG037",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0098",
+   "input": "Zamfarra",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG037",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0099",
+   "input": "Soaoto",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG034",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0100",
+   "input": "Sokoto State",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG034",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0101",
+   "input": "Sokotto",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": "NG034",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0102",
+   "input": "Jol South",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG032",
+   "expected": "NG032006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0103",
+   "input": "Jos Suth",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG032",
+   "expected": "NG032006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0104",
+   "input": "Jos South County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG032",
+   "expected": "NG032006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0105",
+   "input": "Abeokuta-North",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028001",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0106",
+   "input": "Abeokuta Nortkh",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0107",
+   "input": "abeokuta north",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0108",
+   "input": "Zango LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021034",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0109",
+   "input": "Kankara",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021019",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0110",
+   "input": "Kankaar",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021019",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0111",
+   "input": "Kankarra",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021019",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0112",
+   "input": "Nsit-Ibom",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003020",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0113",
+   "input": "Nsit Ibom LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003020",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0114",
+   "input": "Nsit Ibbom",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003020",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0115",
+   "input": "Isoqo North",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG010009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0116",
+   "input": "Isoko North LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG010009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0117",
+   "input": "Isoko Nrth",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG010009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0118",
+   "input": "Etsaqo West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0119",
+   "input": "Etsakm West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0120",
+   "input": "etsako west",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0121",
+   "input": "Toro",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005018",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0122",
+   "input": "Toro LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005018",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0123",
+   "input": "Torro",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005018",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0124",
+   "input": "Umouahia North",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001015",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0125",
+   "input": "Umuahia-North",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001015",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0126",
+   "input": "Umuahia North County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001015",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0127",
+   "input": "Ife East",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG030",
+   "expected": "NG030012",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0128",
+   "input": "Ife Eats",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG030",
+   "expected": "NG030012",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0129",
+   "input": "IFE EAST",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG030",
+   "expected": "NG030012",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0130",
+   "input": "Enugu-South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014005",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0131",
+   "input": "Enugou South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0132",
+   "input": "enugu south",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0133",
+   "input": "Yankwachi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018027",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0134",
+   "input": "Yaokwashi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018027",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0135",
+   "input": "Yankwashi Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018027",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0136",
+   "input": "Gwagwalada",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG015004",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0137",
+   "input": "Gwagwlada",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG015004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0138",
+   "input": "gwagwalada",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG015004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0139",
+   "input": "Iladje",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0140",
+   "input": "ILAJE",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0141",
+   "input": "Ilaje County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0142",
+   "input": "Logo County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0143",
+   "input": "Ijero",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013009",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0144",
+   "input": "Ijerro",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0145",
+   "input": "Ijero County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0146",
+   "input": "askira/uba",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG008002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0147",
+   "input": "Askira/Ubba",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG008002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0148",
+   "input": "Askia/Uba",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG008002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0149",
+   "input": "Ilorin East County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG024006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0150",
+   "input": "Ilorif East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG024006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0151",
+   "input": "Ilorrin East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG024006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0152",
+   "input": "Aougie",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0153",
+   "input": "AUGIE",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0154",
+   "input": "Augie County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0155",
+   "input": "ibarapa east",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031012",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0156",
+   "input": "Ibarapa-East",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031012",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0157",
+   "input": "Ibarapa East District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0158",
+   "input": "Kwande",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007011",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0159",
+   "input": "Kawnde",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007011",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0160",
+   "input": "Kwande Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0161",
+   "input": "Sumaila",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020036",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0162",
+   "input": "Sumaila County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020036",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0163",
+   "input": "sumaila",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020036",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0164",
+   "input": "Emoure",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0165",
+   "input": "EMURE",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0166",
+   "input": "Emure County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0167",
+   "input": "Dandi County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0168",
+   "input": "Chibok",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0169",
+   "input": "Chibok LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0170",
+   "input": "Chiboq",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0171",
+   "input": "Wourno",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG034",
+   "expected": "NG034022",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0172",
+   "input": "Wurno District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG034",
+   "expected": "NG034022",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0173",
+   "input": "Anambra fWest",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0174",
+   "input": "Anambra West LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0175",
+   "input": "Anambra-West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0176",
+   "input": "Kiru",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020024",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0177",
+   "input": "Kiru County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020024",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0178",
+   "input": "kiru",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020024",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0179",
+   "input": "Ilorin West District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0180",
+   "input": "Ilorrin West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0181",
+   "input": "Ilorin-West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024008",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0182",
+   "input": "Girei District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG002005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0183",
+   "input": "Girai",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG002005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0184",
+   "input": "Tsanyaca",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG020",
+   "expected": "NG020040",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0185",
+   "input": "Tsaniawa",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG020",
+   "expected": "NG020040",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0186",
+   "input": "Tsanyawa District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG020",
+   "expected": "NG020040",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0187",
+   "input": "Egbeda Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0188",
+   "input": "Egbda",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0189",
+   "input": "Egbedda",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0190",
+   "input": "Igbo-Eze South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014009",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0191",
+   "input": "Igbo-Eez South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0192",
+   "input": "Igbo-Eze Soutkh",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0193",
+   "input": "Aqoko South West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0194",
+   "input": "Akoko Suoth West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0195",
+   "input": "akoko south west",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0196",
+   "input": "Yusufari District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036017",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0197",
+   "input": "Yusufri",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036017",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0198",
+   "input": "Yousufari",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036017",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0199",
+   "input": "OGUTA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG017",
+   "expected": "NG017017",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0200",
+   "input": "Oguta LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG017",
+   "expected": "NG017017",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0201",
+   "input": "Ogutta",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG017",
+   "expected": "NG017017",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0202",
+   "input": "Bpgudo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0203",
+   "input": "BAGUDO",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0204",
+   "input": "Baguddo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0205",
+   "input": "Afikpo South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011003",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0206",
+   "input": "afikpo south",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0207",
+   "input": "Afikpo Suth",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0208",
+   "input": "Igoueben",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0209",
+   "input": "Igueuben",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0210",
+   "input": "IGUEBEN",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0211",
+   "input": "Zing District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0212",
+   "input": "ZING",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035016",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0213",
+   "input": "Dass District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0214",
+   "input": "dass",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0215",
+   "input": "Das",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0216",
+   "input": "okehi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023016",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0217",
+   "input": "Okehi LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0218",
+   "input": "Oqehi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0219",
+   "input": "Makurdi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007013",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0220",
+   "input": "Mafkurdi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0221",
+   "input": "Makurdi District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG007013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0222",
+   "input": "Bungudu County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG037005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0223",
+   "input": "Bungukdu",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG037005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0224",
+   "input": "Bunguddu",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG037005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0225",
+   "input": "ABAK",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0226",
+   "input": "Abaq",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0227",
+   "input": "Abak LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0228",
+   "input": "Shanono",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020035",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0229",
+   "input": "Shanono Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020035",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0230",
+   "input": "Shanoo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020035",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0231",
+   "input": "AUYO",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0232",
+   "input": "Auio",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0233",
+   "input": "Auyo District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0234",
+   "input": "Bogoro",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005003",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0235",
+   "input": "Beogoro",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0236",
+   "input": "Bogorro",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0237",
+   "input": "Gujba",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG036",
+   "expected": "NG036007",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0238",
+   "input": "Gujba District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG036",
+   "expected": "NG036007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0239",
+   "input": "Goujba",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG036",
+   "expected": "NG036007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0240",
+   "input": "Dutse",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0241",
+   "input": "Doutse",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0242",
+   "input": "Dutse LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0243",
+   "input": "Adjeromi-Ifelodun",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG025002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0244",
+   "input": "Ajeromi-Ifelodun Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG025002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0245",
+   "input": "Ajeromi Ifelodun",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG025002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0246",
+   "input": "Njikcka",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0247",
+   "input": "Ndjikoka",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0248",
+   "input": "Njikoka District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0249",
+   "input": "EKWUSIGO",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0250",
+   "input": "Ekwvsigo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0251",
+   "input": "Eqwusigo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0252",
+   "input": "Funakaie",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG016005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0253",
+   "input": "Funakcaye",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG016005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0254",
+   "input": "Funakaye District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG016005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0255",
+   "input": "Omala",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023019",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0256",
+   "input": "omala",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023019",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0257",
+   "input": "Omala County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG023",
+   "expected": "NG023019",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0258",
+   "input": "Ibadan-North-East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0259",
+   "input": "Ibadan Nortkh East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0260",
+   "input": "Ibadan North Ehst",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG031007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0261",
+   "input": "Nasarawa-Eggon",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0262",
+   "input": "Nasarwaa-Eggon",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0263",
+   "input": "Nasarawa-Egon",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0264",
+   "input": "Zango-Katmaf",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019022",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0265",
+   "input": "Zango-Kattaf",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019022",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0266",
+   "input": "Zango Kataf",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019022",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0267",
+   "input": "ORU EAST",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017022",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0268",
+   "input": "Orou East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017022",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0269",
+   "input": "Oru East Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017022",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0270",
+   "input": "Wamako",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG034021",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0271",
+   "input": "Wamko",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG034021",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0272",
+   "input": "WAMAKO",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG034021",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0273",
+   "input": "Enugu Epst",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0274",
+   "input": "Enugu-East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0275",
+   "input": "Enugu East District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0276",
+   "input": "Tafawa Balewa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005017",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0277",
+   "input": "Tafawa-Balewa LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005017",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0278",
+   "input": "Taafwa-Balewa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005017",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0279",
+   "input": "Gwoza Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG008011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0280",
+   "input": "gwoza",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG008011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0281",
+   "input": "Keffi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0282",
+   "input": "KEFFI",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0283",
+   "input": "Kefi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0284",
+   "input": "Patwegi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024016",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0285",
+   "input": "Pategi Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0286",
+   "input": "Pattegi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0287",
+   "input": "SARDAUNA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG035011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0288",
+   "input": "Sardaunna",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG035011",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0289",
+   "input": "Sardauna County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG035011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0290",
+   "input": "Suleja County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027023",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0291",
+   "input": "SULEJA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027023",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0292",
+   "input": "Sleja",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027023",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0293",
+   "input": "Oslodi-Isolo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG025",
+   "expected": "NG025018",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0294",
+   "input": "Ochodi-Isolo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG025",
+   "expected": "NG025018",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0295",
+   "input": "Oshodi-Isolo LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG025",
+   "expected": "NG025018",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0296",
+   "input": "Monguno",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008024",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0297",
+   "input": "Mongouno",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008024",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0298",
+   "input": "Monguno District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008024",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0299",
+   "input": "UGWUNAGBO",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001012",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0300",
+   "input": "Ugwounagbo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0301",
+   "input": "Ugwunagbo District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG001",
+   "expected": "NG001012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0302",
+   "input": "Ibbeno",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0303",
+   "input": "Ibeno Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0304",
+   "input": "IBENO",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0305",
+   "input": "Orredo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0306",
+   "input": "Oredo Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG012",
+   "expected": "NG012012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0307",
+   "input": "Iqwo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0308",
+   "input": "Ikwo County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0309",
+   "input": "IKWO",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG011007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0310",
+   "input": "Ijebu Ode Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0311",
+   "input": "IJEBU ODE",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0312",
+   "input": "Ijebu vOde",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG028",
+   "expected": "NG028011",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0313",
+   "input": "Bakori Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0314",
+   "input": "Baokri",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0315",
+   "input": "Baqori",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG021",
+   "expected": "NG021001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0316",
+   "input": "IJEBU EAST",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0317",
+   "input": "Ijebu-East",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028008",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0318",
+   "input": "Ijebu East County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0319",
+   "input": "Obanliku Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG009013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0320",
+   "input": "Obanlikou",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG009013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0321",
+   "input": "Obnliku",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG009013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0322",
+   "input": "Kjauru",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019012",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0323",
+   "input": "Kadjuru",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0324",
+   "input": "Kajuru District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0325",
+   "input": "Miga",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018022",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0326",
+   "input": "Miga County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG018022",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0327",
+   "input": "Ihiala",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004012",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0328",
+   "input": "ihiala",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004012",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0329",
+   "input": "Ihiala Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0330",
+   "input": "Ihittp/Uboma",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0331",
+   "input": "Ihitte/Uboma District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0332",
+   "input": "Ihitte/Ubomma",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG017007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0333",
+   "input": "Ibaduan North West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0334",
+   "input": "Ibadan-North-West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031008",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0335",
+   "input": "Ibadan North West Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0336",
+   "input": "Oyi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004021",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0337",
+   "input": "Oii",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004021",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0338",
+   "input": "Oyi County",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG004",
+   "expected": "NG004021",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0339",
+   "input": "Ikene",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0340",
+   "input": "Iwkenne",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028012",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0341",
+   "input": "ikenne",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG028012",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0342",
+   "input": "Ese-Odo LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0343",
+   "input": "Ese Odo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0344",
+   "input": "Ee-Odo",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0345",
+   "input": "Idemili-South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004011",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0346",
+   "input": "Iddemili South",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004011",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0347",
+   "input": "Idemili South County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG004011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0348",
+   "input": "OJU",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG007",
+   "expected": "NG007017",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0349",
+   "input": "Odju",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG007",
+   "expected": "NG007017",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0350",
+   "input": "Oju LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG007",
+   "expected": "NG007017",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0351",
+   "input": "Ondo West LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0352",
+   "input": "Ondo kWest",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029016",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0353",
+   "input": "Ondo-West",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG029",
+   "expected": "NG029016",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0354",
+   "input": "Jere District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0355",
+   "input": "jere",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008013",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0356",
+   "input": "Jerre",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG008",
+   "expected": "NG008013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0357",
+   "input": "Ikot-Ekpene",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003014",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0358",
+   "input": "Ikot Eqpene",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003014",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0359",
+   "input": "Iiot Ekpene",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG003",
+   "expected": "NG003014",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0360",
+   "input": "Fakai District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0361",
+   "input": "Faqai",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0362",
+   "input": "Oie",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0363",
+   "input": "Oye Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0364",
+   "input": "oye",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG013",
+   "expected": "NG013016",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0365",
+   "input": "Eket County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0366",
+   "input": "eket",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0367",
+   "input": "Eqet",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG003003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0368",
+   "input": "Kudan District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019016",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0369",
+   "input": "Koudan",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0370",
+   "input": "kudan",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG019016",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0371",
+   "input": "FUFORE",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG002002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0372",
+   "input": "Foufore",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG002002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0373",
+   "input": "Fufore LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0374",
+   "input": "Igbo-Etiti",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014007",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0375",
+   "input": "Ingbo-Etiti",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0376",
+   "input": "Igbo Etiti",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG014007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0377",
+   "input": "Dan Musa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021007",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0378",
+   "input": "DAN MUSA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0379",
+   "input": "Dan Mussa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0380",
+   "input": "Dalla",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0381",
+   "input": "dala",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0382",
+   "input": "Dala LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0383",
+   "input": "Batsari LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0384",
+   "input": "Batsarri",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0385",
+   "input": "Batasri",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0386",
+   "input": "Oyigbo LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG033021",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0387",
+   "input": "Oiigbo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG033021",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0388",
+   "input": "oyigbo",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG033021",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0389",
+   "input": "Kaugama",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018016",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0390",
+   "input": "Kaugamma",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0391",
+   "input": "Kaugmaa",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG018",
+   "expected": "NG018016",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0392",
+   "input": "Kirfi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005013",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0393",
+   "input": "Kirfi District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG005",
+   "expected": "NG005013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0394",
+   "input": "Minjibr",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020030",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0395",
+   "input": "Minjibir Department",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020030",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0396",
+   "input": "MINJIBIR",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020030",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0397",
+   "input": "Gpmawa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0398",
+   "input": "Gamawa LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0399",
+   "input": "Gammawa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG005007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0400",
+   "input": "Isiala-Ngwa Nortkh",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG001006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0401",
+   "input": "Isiala-Nvwa North",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG001006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0402",
+   "input": "Isiala Ngwa North",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG001006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0403",
+   "input": "emohua",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG033",
+   "expected": "NG033010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0404",
+   "input": "Emjohua",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG033",
+   "expected": "NG033010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0405",
+   "input": "Emohua Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG033",
+   "expected": "NG033010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0406",
+   "input": "Ikere District",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG013010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0407",
+   "input": "Ikerre",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG013010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0408",
+   "input": "Ezeagou",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG014",
+   "expected": "NG014006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0409",
+   "input": "Ezaagu",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG014",
+   "expected": "NG014006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0410",
+   "input": "Ezeagu District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG014",
+   "expected": "NG014006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0411",
+   "input": "Wamba Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG026",
+   "expected": "NG026013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0412",
+   "input": "Lau",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0413",
+   "input": "LAU",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0414",
+   "input": "Laou",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0415",
+   "input": "Takum LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0416",
+   "input": "Taqum",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG035",
+   "expected": "NG035012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0417",
+   "input": "Oluyole",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031025",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0418",
+   "input": "Oluyolle",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031025",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0419",
+   "input": "Oluyole Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031025",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0420",
+   "input": "Dambata",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0421",
+   "input": "Dmabatta",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0422",
+   "input": "Dambatta LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG020008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0423",
+   "input": "Irrewole",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG030021",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0424",
+   "input": "Irewloe",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG030021",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0425",
+   "input": "IREWOLE",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG030021",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0426",
+   "input": "Fune",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036005",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0427",
+   "input": "Foune",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0428",
+   "input": "FUNE",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG036005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0429",
+   "input": "Wushisi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027025",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0430",
+   "input": "Woushishi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027025",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0431",
+   "input": "Wushishi District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG027",
+   "expected": "NG027025",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0432",
+   "input": "Ingaa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021015",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0433",
+   "input": "Ingawa LGA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021015",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0434",
+   "input": "INGAWA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG021015",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0435",
+   "input": "Domma",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0436",
+   "input": "Doma County",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0437",
+   "input": "DOMA",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "NG026003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0438",
+   "input": "KAURU",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019014",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0439",
+   "input": "Kauru District",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019014",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0440",
+   "input": "Kaouru",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG019",
+   "expected": "NG019014",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0441",
+   "input": "Alerio",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0442",
+   "input": "Alleiro",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0443",
+   "input": "Aleiro Department",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG022",
+   "expected": "NG022001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0444",
+   "input": "Dugja Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008005",
+   "expected": "NG008005003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0445",
+   "input": "Dougja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008005",
+   "expected": "NG008005003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0446",
+   "input": "Gubio 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009007",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0447",
+   "input": "Gubio-2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0448",
+   "input": "Guio 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0449",
+   "input": "Gambir Modduri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0450",
+   "input": "Gambir Mdouri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0451",
+   "input": "Gambir-Moduri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003004",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0452",
+   "input": "Girai 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002005",
+   "expected": "NG002005005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0453",
+   "input": "Girei-2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002005",
+   "expected": "NG002005005",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0454",
+   "input": "girei 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002005",
+   "expected": "NG002005005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0455",
+   "input": "Julouri Damnawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036002",
+   "expected": "NG036002007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0456",
+   "input": "Julur Damnawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036002",
+   "expected": "NG036002007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0457",
+   "input": "Juluri-Damnawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036002",
+   "expected": "NG036002007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0458",
+   "input": "Gombi oSuth",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002004",
+   "expected": "NG002004007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0459",
+   "input": "Gombi South Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002004",
+   "expected": "NG002004007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0460",
+   "input": "Gombi-South",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002004",
+   "expected": "NG002004007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0461",
+   "input": "Musune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0462",
+   "input": "Mfusune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0463",
+   "input": "Musune Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0464",
+   "input": "Hoserezum Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0465",
+   "input": "Hoserezm",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0466",
+   "input": "Hosserezum",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0467",
+   "input": "Lawan Musa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036001",
+   "expected": "NG036001006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0468",
+   "input": "Lawan Musa Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036001",
+   "expected": "NG036001006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0469",
+   "input": "Lawan Mussa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036001",
+   "expected": "NG036001006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0470",
+   "input": "Gouwo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0471",
+   "input": "Guwo Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0472",
+   "input": "Ngala",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0473",
+   "input": "Ngala Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0474",
+   "input": "Ngalla",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0475",
+   "input": "Gnegle",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002012",
+   "expected": "NG002012004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0476",
+   "input": "Gengle Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002012",
+   "expected": "NG002012004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0477",
+   "input": "Wambilimmi/Tili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013016",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0478",
+   "input": "Wambilimi/ili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013016",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0479",
+   "input": "wambilimi/tili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013016",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0480",
+   "input": "Kidda",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012005",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0481",
+   "input": "Kidda Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0482",
+   "input": "Kida",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0483",
+   "input": "MARGATA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0484",
+   "input": "Margatta",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0485",
+   "input": "Margaa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0486",
+   "input": "Zabudum Dachia",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0487",
+   "input": "Zabudum Dachia Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0488",
+   "input": "Zabudum-Dachia",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016010",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0489",
+   "input": "Ketmebere",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002017",
+   "expected": "NG002017006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0490",
+   "input": "Ketembere Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002017",
+   "expected": "NG002017006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0491",
+   "input": "Kettembere",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002017",
+   "expected": "NG002017006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0492",
+   "input": "daksiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0493",
+   "input": "Daksiri Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0494",
+   "input": "Daksirri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002007",
+   "expected": "NG002007002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0495",
+   "input": "Ala Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0496",
+   "input": "ala",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0497",
+   "input": "M.-Maja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008005",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0498",
+   "input": "M. Maa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0499",
+   "input": "m. maja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0500",
+   "input": "Fika Anze Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0501",
+   "input": "Fika Ane",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0502",
+   "input": "Fiqa Anze",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0503",
+   "input": "dilli",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002001",
+   "expected": "NG002001004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0504",
+   "input": "Dilli Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002001",
+   "expected": "NG002001004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0505",
+   "input": "Dili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002001",
+   "expected": "NG002001004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0506",
+   "input": "Gorra",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008027",
+   "expected": "NG008027004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0507",
+   "input": "Gora Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008027",
+   "expected": "NG008027004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0508",
+   "input": "a lawant",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0509",
+   "input": "A Lawant Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0510",
+   "input": "A Laswant",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0511",
+   "input": "Fuye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025001",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0512",
+   "input": "Fuye Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0513",
+   "input": "Fouye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0514",
+   "input": "VIMTIM",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0515",
+   "input": "Vimtm",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0516",
+   "input": "Vimtim Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0517",
+   "input": "Warshele",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0518",
+   "input": "Warshele Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0519",
+   "input": "WARSHELE",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0520",
+   "input": "Gajigana Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0521",
+   "input": "Gadjigana",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0522",
+   "input": "Gajigna",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0523",
+   "input": "GUWORAM",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008010",
+   "expected": "NG008010004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0524",
+   "input": "Guworram",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008010",
+   "expected": "NG008010004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0525",
+   "input": "Guwdoram",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008010",
+   "expected": "NG008010004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0526",
+   "input": "Yusufari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0527",
+   "input": "Yusufari Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0528",
+   "input": "Yusufarri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0529",
+   "input": "Dogon-Nini",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0530",
+   "input": "dogon nini",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0531",
+   "input": "Dogon Ninni",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0532",
+   "input": "Banowa Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0533",
+   "input": "banowa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0534",
+   "input": "Bannowa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0535",
+   "input": "Tumbara/Ngabili Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013014",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0536",
+   "input": "tumbara/ngabili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013014",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0537",
+   "input": "Tumbara/Ngabmili",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013014",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0538",
+   "input": "pulka bokko",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008011",
+   "expected": "NG008011013",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0539",
+   "input": "Pflka Bokko",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008011",
+   "expected": "NG008011013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0540",
+   "input": "Pulka-Bokko",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008011",
+   "expected": "NG008011013",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0541",
+   "input": "Zangaya Mazawaun",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004010",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0542",
+   "input": "Zangaya Mazawaun Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0543",
+   "input": "ZANGAYA MAZAWAUN",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0544",
+   "input": "marguba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0545",
+   "input": "Marguba Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0546",
+   "input": "Margba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0547",
+   "input": "Wada Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008018",
+   "expected": "NG008018008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0548",
+   "input": "Wadda",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008018",
+   "expected": "NG008018008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0549",
+   "input": "Njinne",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0550",
+   "input": "Njine Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0551",
+   "input": "Kuqareta Warsala",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0552",
+   "input": "Kukareta Warsala Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0553",
+   "input": "Kukareta-Warsala",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0554",
+   "input": "Konduga Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008016",
+   "expected": "NG008016007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0555",
+   "input": "Kondguga",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008016",
+   "expected": "NG008016007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0556",
+   "input": "Kondouga",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008016",
+   "expected": "NG008016007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0557",
+   "input": "grim damchoba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0558",
+   "input": "Grim-Damchoba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0559",
+   "input": "Grim Damchba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0560",
+   "input": "Numman 3",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002016",
+   "expected": "NG002016008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0561",
+   "input": "Numan-3",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002016",
+   "expected": "NG002016008",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0562",
+   "input": "Numcan 3",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002016",
+   "expected": "NG002016008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0563",
+   "input": "Gumti Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002019",
+   "expected": "NG002019003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0564",
+   "input": "Goumti",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002019",
+   "expected": "NG002019003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0565",
+   "input": "Muliie",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0566",
+   "input": "MULIYE",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0567",
+   "input": "Mauliye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0568",
+   "input": "Goniri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007004",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0569",
+   "input": "Gonirri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0570",
+   "input": "Goniri Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0571",
+   "input": "Limmawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020007",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0572",
+   "input": "Lmawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020007",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0573",
+   "input": "limawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0574",
+   "input": "Maisandari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021013",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0575",
+   "input": "maisandari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021013",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0576",
+   "input": "Meisandari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0577",
+   "input": "Yawa Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0578",
+   "input": "YAWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0579",
+   "input": "Farang Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0580",
+   "input": "Faragn",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0581",
+   "input": "FARANG",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0582",
+   "input": "Neudoram",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0583",
+   "input": "Nguddoram",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0584",
+   "input": "Ngudoram Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0585",
+   "input": "Karewa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0586",
+   "input": "Karrewa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0587",
+   "input": "KAREWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0588",
+   "input": "Ngojin Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0589",
+   "input": "Nogjin",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0590",
+   "input": "Ngodjin",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0591",
+   "input": "Gazaubre",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0592",
+   "input": "Gazaburre",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0593",
+   "input": "Gazabure Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0594",
+   "input": "Sugu",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002003",
+   "expected": "NG002003008",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0595",
+   "input": "SUGU",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002003",
+   "expected": "NG002003008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0596",
+   "input": "Sugou",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002003",
+   "expected": "NG002003008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0597",
+   "input": "Mafa Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036015",
+   "expected": "NG036015007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0598",
+   "input": "mafa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036015",
+   "expected": "NG036015007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0599",
+   "input": "Dudduye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0600",
+   "input": "Dudduye Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0601",
+   "input": "DUDDUYE",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0602",
+   "input": "Mayo-Bani",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0603",
+   "input": "Maio Bani",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0604",
+   "input": "Maydo Bani",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0605",
+   "input": "Jara-Gol",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0606",
+   "input": "JARA-GOL",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0607",
+   "input": "Jara Gol",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0608",
+   "input": "sure",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0609",
+   "input": "Sure Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0610",
+   "input": "Surre",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0611",
+   "input": "Machigna",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036011",
+   "expected": "NG036011008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0612",
+   "input": "Machina Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036011",
+   "expected": "NG036011008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0613",
+   "input": "machina",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036011",
+   "expected": "NG036011008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0614",
+   "input": "Gulani Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036008",
+   "expected": "NG036008008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0615",
+   "input": "GULANI",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036008",
+   "expected": "NG036008008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0616",
+   "input": "Gulni",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036008",
+   "expected": "NG036008008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0617",
+   "input": "Gajbo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0618",
+   "input": "Gajibo Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0619",
+   "input": "Gadjibo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008008",
+   "expected": "NG008008003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0620",
+   "input": "Gujba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007006",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0621",
+   "input": "GUJBA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0622",
+   "input": "Gujba Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0623",
+   "input": "BORKO",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0624",
+   "input": "Borqo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0625",
+   "input": "Borko Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0626",
+   "input": "Ydunusari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0627",
+   "input": "yunusari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0628",
+   "input": "Yunnusari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016009",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0629",
+   "input": "Woulo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0630",
+   "input": "WULO",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0631",
+   "input": "Wulo Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0632",
+   "input": "Maiha-Gari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002011",
+   "expected": "NG002011004",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0633",
+   "input": "MAIHA GARI",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002011",
+   "expected": "NG002011004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0634",
+   "input": "Maih Gari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002011",
+   "expected": "NG002011004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0635",
+   "input": "Zakh",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0636",
+   "input": "ZAH",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013013",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0637",
+   "input": "Zah Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002013",
+   "expected": "NG002013013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0638",
+   "input": "Hizhibwalla",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0639",
+   "input": "Hizhibwala Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0640",
+   "input": "Hzihibwala",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008012",
+   "expected": "NG008012004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0641",
+   "input": "Muigine",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019011",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0642",
+   "input": "Moujigine",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019011",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0643",
+   "input": "mujigine",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0644",
+   "input": "Blori I",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0645",
+   "input": "BOLORI I",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0646",
+   "input": "Bolori I Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0647",
+   "input": "Baga Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0648",
+   "input": "baga",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0649",
+   "input": "Uba Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0650",
+   "input": "UBA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0651",
+   "input": "mayo kalaye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002008",
+   "expected": "NG002008008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0652",
+   "input": "Mayo Kallaye",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002008",
+   "expected": "NG002008008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0653",
+   "input": "Mayo Kalaye Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002008",
+   "expected": "NG002008008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0654",
+   "input": "Soie",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0655",
+   "input": "Soye Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0656",
+   "input": "Dubange Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002009",
+   "expected": "NG002009001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0657",
+   "input": "Dtbange",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002009",
+   "expected": "NG002009001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0658",
+   "input": "Dubbange",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002009",
+   "expected": "NG002009001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0659",
+   "input": "Bolewa A",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014002",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0660",
+   "input": "Bolewa A Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0661",
+   "input": "Bolewa-A",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0662",
+   "input": "HAUSARI TAMPUL",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0663",
+   "input": "Hausari Tampul Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0664",
+   "input": "Haousari Tampul",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0665",
+   "input": "Dogomma",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0666",
+   "input": "dogoma",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0667",
+   "input": "Dogoma Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008014",
+   "expected": "NG008014004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0668",
+   "input": "Miirnga",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008005",
+   "expected": "NG008005008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0669",
+   "input": "miringa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008005",
+   "expected": "NG008005008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0670",
+   "input": "Miringa Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008005",
+   "expected": "NG008005008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0671",
+   "input": "Damasak",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008023",
+   "expected": "NG008023004",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0672",
+   "input": "Damasaq",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008023",
+   "expected": "NG008023004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0673",
+   "input": "Damalak",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008023",
+   "expected": "NG008023004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0674",
+   "input": "Hoyo-Chingowa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0675",
+   "input": "Hoyo Chingowa Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0676",
+   "input": "HOYO CHINGOWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020007",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0677",
+   "input": "Dawo 2 Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002019",
+   "expected": "NG002019002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0678",
+   "input": "Dawo-2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002019",
+   "expected": "NG002019002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0679",
+   "input": "Daow 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002019",
+   "expected": "NG002019002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0680",
+   "input": "Kola",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006008",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0681",
+   "input": "KOLA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0682",
+   "input": "Kolla",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0683",
+   "input": "Gwakara",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008027",
+   "expected": "NG008027006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0684",
+   "input": "Gwaskara Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008027",
+   "expected": "NG008027006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0685",
+   "input": "Gwasqara",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008027",
+   "expected": "NG008027006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0686",
+   "input": "Borsorri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0687",
+   "input": "Borsori Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0688",
+   "input": "Borsoiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0689",
+   "input": "Yelwa Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0690",
+   "input": "YELWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0691",
+   "input": "Bogomarri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003012",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0692",
+   "input": "Bogomari Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0693",
+   "input": "Boomari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003012",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0694",
+   "input": "Alaou",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008013",
+   "expected": "NG008013001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0695",
+   "input": "Alau Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008013",
+   "expected": "NG008013001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0696",
+   "input": "Amchaka Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0697",
+   "input": "amchaka",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0698",
+   "input": "Acchaka",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0699",
+   "input": "Wawa Korode Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008007",
+   "expected": "NG008007010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0700",
+   "input": "Wawa Koorde",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008007",
+   "expected": "NG008007010",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0701",
+   "input": "Wawa Qorode",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008007",
+   "expected": "NG008007010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0702",
+   "input": "FOGUWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0703",
+   "input": "Fonuwa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0704",
+   "input": "Foguwa Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0705",
+   "input": "Mayo Ine",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002006",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0706",
+   "input": "Mayo-Inne",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0707",
+   "input": "Mayo Inzne",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0708",
+   "input": "Briyel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004002",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0709",
+   "input": "Briiel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0710",
+   "input": "Bryel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008004",
+   "expected": "NG008004002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0711",
+   "input": "Yaou",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001008",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0712",
+   "input": "Yau Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0713",
+   "input": "YAU",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008001",
+   "expected": "NG008001008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0714",
+   "input": "Felo Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0715",
+   "input": "Fello",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0716",
+   "input": "FELO",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008009",
+   "expected": "NG008009003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0717",
+   "input": "Daddingel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007003",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0718",
+   "input": "DADINGEL",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0719",
+   "input": "Ddaingel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0720",
+   "input": "Nayinawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003009",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0721",
+   "input": "NAYINAWA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003009",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0722",
+   "input": "Nayinxawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036003",
+   "expected": "NG036003009",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0723",
+   "input": "Boga Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002004",
+   "expected": "NG002004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0724",
+   "input": "BOGA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002004",
+   "expected": "NG002004001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0725",
+   "input": "Andara Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0726",
+   "input": "Andahra",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0727",
+   "input": "Andarra",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0728",
+   "input": "Damakli",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0729",
+   "input": "Damakuli Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0730",
+   "input": "DAMAKULI",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008024",
+   "expected": "NG008024001",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0731",
+   "input": "Yabiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003013",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0732",
+   "input": "yabiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003013",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0733",
+   "input": "Ybiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008003",
+   "expected": "NG008003013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0734",
+   "input": "Bdaairi",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022011",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0735",
+   "input": "Badairi Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0736",
+   "input": "BADAIRI",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0737",
+   "input": "Ashaikri 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0738",
+   "input": "Ascheikri 2",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0739",
+   "input": "Asheikri 2 Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036006",
+   "expected": "NG036006002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0740",
+   "input": "Koshebbe",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0741",
+   "input": "Koshebe Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0742",
+   "input": "Kohebe",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019004",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0743",
+   "input": "Mamudo Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0744",
+   "input": "Mamsdo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014008",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0745",
+   "input": "mamudo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036014",
+   "expected": "NG036014008",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0746",
+   "input": "Karlakhi",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0747",
+   "input": "karlahi",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0748",
+   "input": "Karlahi Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0749",
+   "input": "Ngubala Bamma Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020013",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0750",
+   "input": "Ngubala Bamta",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020013",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0751",
+   "input": "Ngubala Bama",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008020",
+   "expected": "NG008020013",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0752",
+   "input": "Bundur",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017003",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0753",
+   "input": "Bundur Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0754",
+   "input": "bundur",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0755",
+   "input": "Korongilum Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008006",
+   "expected": "NG008006006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0756",
+   "input": "KORONGILUM",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008006",
+   "expected": "NG008006006",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0757",
+   "input": "Korsongilum",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008006",
+   "expected": "NG008006006",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0758",
+   "input": "Chukuriia",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012002",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0759",
+   "input": "Chukfriya",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012002",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0760",
+   "input": "CHUKURIYA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036012",
+   "expected": "NG036012002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0761",
+   "input": "Bila Gusi",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008018",
+   "expected": "NG008018002",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0762",
+   "input": "Bila Gusi Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008018",
+   "expected": "NG008018002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0763",
+   "input": "Bila-Gusi",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008018",
+   "expected": "NG008018002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NGA-0764",
+   "input": "Doubeli Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0765",
+   "input": "Dubeli",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020003",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0766",
+   "input": "doubeli",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002020",
+   "expected": "NG002020003",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0767",
+   "input": "Kumagannam",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017005",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0768",
+   "input": "Kummagannam",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0769",
+   "input": "Kuagannam",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036017",
+   "expected": "NG036017005",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0770",
+   "input": "Tolla",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002012",
+   "expected": "NG002012011",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0771",
+   "input": "Tola Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002012",
+   "expected": "NG002012011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0772",
+   "input": "TOLA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002012",
+   "expected": "NG002012011",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0773",
+   "input": "Gadaka",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004002",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0774",
+   "input": "gadaka",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004002",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0775",
+   "input": "Gadaka Ward",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0776",
+   "input": "Goumna",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022004",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0777",
+   "input": "GUMNA",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022004",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0778",
+   "input": "Gumna Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008022",
+   "expected": "NG008022004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0779",
+   "input": "Kwaja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002015",
+   "expected": "NG002015005",
+   "noise": "exact"
+  },
+  {
+   "id": "NGA-0780",
+   "input": "Kwadja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002015",
+   "expected": "NG002015005",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0781",
+   "input": "kwaja",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002015",
+   "expected": "NG002015005",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0782",
+   "input": "Banjirram",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006001",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0783",
+   "input": "Banjirma",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006001",
+   "noise": "typo"
+  },
+  {
+   "id": "NGA-0784",
+   "input": "Banjiram Sub-district",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002006",
+   "expected": "NG002006001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0785",
+   "input": "Yoyo Commune",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NGA-0786",
+   "input": "Yoio",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017010",
+   "noise": "translit"
+  },
+  {
+   "id": "NGA-0787",
+   "input": "yoyo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008017",
+   "expected": "NG008017010",
+   "noise": "case"
+  },
+  {
+   "id": "NGA-0788",
+   "input": "Shehuri",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0789",
+   "input": "Shehuri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008025",
+   "expected": "NG008025009",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0790",
+   "input": "Mafa",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0791",
+   "input": "Mafa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036015",
+   "expected": "NG036015007",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0792",
+   "input": "Ribadu",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0793",
+   "input": "Ribadu",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002002",
+   "expected": "NG002002008",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0794",
+   "input": "Bulabulin",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0795",
+   "input": "Bulabulin",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036013",
+   "expected": "NG036013002",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0796",
+   "input": "Goniri",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0797",
+   "input": "Goniri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036007",
+   "expected": "NG036007004",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0798",
+   "input": "Nasarawa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0799",
+   "input": "Nasarawa",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG020",
+   "expected": "NG020031",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0800",
+   "input": "Irepodun",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0801",
+   "input": "Irepodun",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG030",
+   "expected": "NG030020",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0802",
+   "input": "Nassarawo",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0803",
+   "input": "Nassarawo",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002015",
+   "expected": "NG002015009",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0804",
+   "input": "Limanti",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0805",
+   "input": "Limanti",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008021",
+   "expected": "NG008021011",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0806",
+   "input": "Mairari",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0807",
+   "input": "Mairari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036016",
+   "expected": "NG036016006",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0808",
+   "input": "Hausari",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0809",
+   "input": "Hausari",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036013",
+   "expected": "NG036013006",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0810",
+   "input": "Ajiri",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0811",
+   "input": "Ajiri",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008019",
+   "expected": "NG008019002",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0812",
+   "input": "Surulere",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0813",
+   "input": "Surulere",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG031",
+   "expected": "NG031033",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0814",
+   "input": "Kurnawa",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0815",
+   "input": "Kurnawa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036002",
+   "expected": "NG036002009",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0816",
+   "input": "Bebel",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0817",
+   "input": "Bebel",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002011",
+   "expected": "NG002011001",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0818",
+   "input": "Alagarno",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0819",
+   "input": "Alagarno",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036005",
+   "expected": "NG036005001",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0820",
+   "input": "Obi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0821",
+   "input": "Obi",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG026",
+   "expected": "NG026011",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0822",
+   "input": "Ifelodun",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0823",
+   "input": "Ifelodun",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG024",
+   "expected": "NG024005",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0824",
+   "input": "Yelwa",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0825",
+   "input": "Yelwa",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002014",
+   "expected": "NG002014011",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0826",
+   "input": "Uba",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0827",
+   "input": "Uba",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG008002",
+   "expected": "NG008002010",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0828",
+   "input": "Bassa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0829",
+   "input": "Bassa",
+   "iso3": "NGA",
+   "level": 2,
+   "parent": "NG032",
+   "expected": "NG032002",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0830",
+   "input": "Garu",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0831",
+   "input": "Garu",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036004",
+   "expected": "NG036004003",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0832",
+   "input": "Lamurde",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0833",
+   "input": "Lamurde",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG002009",
+   "expected": "NG002009004",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0834",
+   "input": "Zabudum Dachia",
+   "iso3": "NGA",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NGA-0835",
+   "input": "Zabudum Dachia",
+   "iso3": "NGA",
+   "level": 3,
+   "parent": "NG036009",
+   "expected": "NG036009010",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NGA-0836",
+   "input": "Damascus",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0837",
+   "input": "Al Qutayfah",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0838",
+   "input": "Maïné Soroa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0839",
+   "input": "Goudoumaria",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0840",
+   "input": "Aderbissinat",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0841",
+   "input": "Ar-Raqqa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0842",
+   "input": "Tahoua",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0843",
+   "input": "Niamey",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0844",
+   "input": "As-Sanamayn",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0845",
+   "input": "Al-Qardaha",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0846",
+   "input": "Tall Kalakh",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0847",
+   "input": "Jisr-Ash-Shugur",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0848",
+   "input": "Ath-Thawrah",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0849",
+   "input": "Tartous",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0850",
+   "input": "Tillabéri",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0851",
+   "input": "As-Suqaylabiyah",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0852",
+   "input": "At Tall",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0853",
+   "input": "Rural Damascus",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0854",
+   "input": "Guidan Roumdji",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0855",
+   "input": "Ville de Maradi",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0856",
+   "input": "Quneitra",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0857",
+   "input": "Deir-ez-Zor",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0858",
+   "input": "Diffa",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0859",
+   "input": "Banibangou",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0860",
+   "input": "Ar-Rastan",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0861",
+   "input": "As-Salamiyeh",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0862",
+   "input": "Tchirozerine",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0863",
+   "input": "Lattakia",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0864",
+   "input": "Deir-ez-Zor",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0865",
+   "input": "As-Sweida",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0866",
+   "input": "Dosso",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0867",
+   "input": "Ville de Niamey",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0868",
+   "input": "Jarablus",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0869",
+   "input": "Madarounfa",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0870",
+   "input": "Tell Abiad",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0871",
+   "input": "As-Sweida",
+   "iso3": "NGA",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0872",
+   "input": "Quamishli",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0873",
+   "input": "Az-Zabdani",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0874",
+   "input": "Al-Malikeyyeh",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NGA-0875",
+   "input": "Falmey",
+   "iso3": "NGA",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  }
+ ]
+}

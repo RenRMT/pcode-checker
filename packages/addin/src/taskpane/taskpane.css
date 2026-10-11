@@ -1,0 +1,243 @@
+:root {
+  --fg: #242424;
+  --muted: #616161;
+  --bg: #ffffff;
+  --panel: #f5f5f5;
+  --border: #d1d1d1;
+  --accent: #0f6cbd;
+  --accent-fg: #ffffff;
+  --warn-bg: #fff4ce;
+  --warn-border: #f2c661;
+  --error: #b10e1c;
+  --exact: #e2efda;
+  --fuzzy: #fff2cc;
+  --ambiguous: #fce4d6;
+  --none: #f8cbad;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #f0f0f0;
+    --muted: #adadad;
+    --bg: #1f1f1f;
+    --panel: #2b2b2b;
+    --border: #4a4a4a;
+    --accent: #479ef5;
+    --accent-fg: #0a0a0a;
+    --warn-bg: #463100;
+    --warn-border: #835b00;
+    --error: #f1707b;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 12px 16px 24px;
+  font: 14px/1.4 "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 20px 0 8px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: 600;
+}
+
+label.check {
+  font-weight: 400;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.muted {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+select,
+.grid input {
+  width: 100%;
+}
+
+input.inline {
+  width: 9em;
+  padding: 2px 6px;
+}
+
+button {
+  cursor: pointer;
+  white-space: nowrap;
+  background: var(--panel);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-fg);
+  font-weight: 600;
+  margin-top: 14px;
+}
+
+button.icon {
+  padding: 5px 9px;
+}
+
+button.link {
+  border: none;
+  background: none;
+  color: var(--accent);
+  padding: 8px 0;
+}
+
+.buttons button {
+  margin-top: 8px;
+}
+
+details {
+  margin-top: 10px;
+}
+
+summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+
+fieldset {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 8px 0;
+  padding: 4px 10px 8px;
+}
+
+legend {
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.candidate {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: start;
+  margin: 6px 0;
+  font-weight: 400;
+}
+
+.candidate .score {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.banner {
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin: 10px 0;
+}
+
+.banner button {
+  margin-top: 6px;
+}
+
+.error {
+  color: var(--error);
+}
+
+.counts {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.counts li {
+  border-radius: 4px;
+  padding: 2px 8px;
+  color: #242424;
+}
+
+.counts .exact {
+  background: var(--exact);
+}
+.counts .fuzzy {
+  background: var(--fuzzy);
+}
+.counts .ambiguous {
+  background: var(--ambiguous);
+}
+.counts .none {
+  background: var(--none);
+}
+
+.review-input {
+  background: var(--panel);
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+footer {
+  margin-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+a {
+  color: var(--accent);
+}

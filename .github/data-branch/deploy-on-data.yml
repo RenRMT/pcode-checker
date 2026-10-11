@@ -1,0 +1,20 @@
+# Lives on the `data` branch as .github/workflows/deploy-on-data.yml (copied
+# there by data-refresh.yml when it creates the branch). A push to `data` runs
+# workflows from the `data` branch, which has no build, so this hands off to
+# deploy.yml on main.
+name: deploy-on-data
+
+on:
+  push:
+    branches: [data]
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh workflow run deploy.yml --ref main --repo "${{ github.repository }}"
+        env:
+          GH_TOKEN: ${{ github.token }}

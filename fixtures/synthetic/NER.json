@@ -1,0 +1,5374 @@
+{
+ "iso3": "NER",
+ "version": "v02",
+ "seed": 20261011,
+ "cases": [
+  {
+   "id": "NER-0000",
+   "input": "Doso",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0001",
+   "input": "Dosso State",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0002",
+   "input": "Niamey Province",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0003",
+   "input": "Niamy",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0004",
+   "input": "Niammey",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0005",
+   "input": "Tillabéri",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE006",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0006",
+   "input": "Tillaberi",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE006",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0007",
+   "input": "tillabéri",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0008",
+   "input": "Tahoaua",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0009",
+   "input": "Takhoua",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0010",
+   "input": "Tahoua Province",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0011",
+   "input": "Diffa Region",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0012",
+   "input": "Difa",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0013",
+   "input": "Markadi",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0014",
+   "input": "Marradi",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0015",
+   "input": "Maradi Province",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0016",
+   "input": "ZINDER",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0017",
+   "input": "Zinder Province",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0018",
+   "input": "Znder",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE007",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0019",
+   "input": "Agaddez",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0020",
+   "input": "AGADEZ",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0021",
+   "input": "Amadez",
+   "iso3": "NER",
+   "level": 1,
+   "expected": "NE001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0022",
+   "input": "Tera",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006011",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0023",
+   "input": "téra",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006011",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0024",
+   "input": "Téra County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0025",
+   "input": "Magaria",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007006",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0026",
+   "input": "Magaria Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0027",
+   "input": "Magvria",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007006",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0028",
+   "input": "Dungass",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007003",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0029",
+   "input": "Dungass Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0030",
+   "input": "Dungas",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0031",
+   "input": "Ville de Maradi County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0032",
+   "input": "Ville-de-Maradi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004007",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0033",
+   "input": "Ville De Maradi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0034",
+   "input": "Mirriah District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0035",
+   "input": "MIRRIAH",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0036",
+   "input": "Mirriakh",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0037",
+   "input": "Tibirri",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0038",
+   "input": "tibiri",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003008",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0039",
+   "input": "Tibiri Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0040",
+   "input": "Dogondutchi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0041",
+   "input": "Dogondoutchi County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0042",
+   "input": "Dgoondoutchi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0043",
+   "input": "Kollo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006008",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0044",
+   "input": "Kollo District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0045",
+   "input": "Kolo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0046",
+   "input": "bermo",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0047",
+   "input": "Bermo District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0048",
+   "input": "Oualam",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0049",
+   "input": "OUALLAM",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006009",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0050",
+   "input": "Ouallam Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0051",
+   "input": "BANKILARÉ",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0052",
+   "input": "Bankillaré",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0053",
+   "input": "Bankilare",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006005",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0054",
+   "input": "Bagarroua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0055",
+   "input": "Bagarboua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0056",
+   "input": "Bagaroua County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0057",
+   "input": "Tilia",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005012",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0058",
+   "input": "Tillia Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0059",
+   "input": "Tilila",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005012",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0060",
+   "input": "Tanuot",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007009",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0061",
+   "input": "Tanout District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0062",
+   "input": "Tanut",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0063",
+   "input": "Tillaberi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006012",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0064",
+   "input": "Tilabéri",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006012",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0065",
+   "input": "Tillabéri County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006012",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0066",
+   "input": "Madaoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005007",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0067",
+   "input": "Madaua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0068",
+   "input": "Madoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005007",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0069",
+   "input": "Keita District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0070",
+   "input": "Kaita",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0071",
+   "input": "keita",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0072",
+   "input": "Madarounfa",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004006",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0073",
+   "input": "Madarounfa County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0074",
+   "input": "MADAROUNFA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0075",
+   "input": "Goudoumaria Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0076",
+   "input": "Goudlumaria",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0077",
+   "input": "GOUDOUMARIA",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0078",
+   "input": "Kntché",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0079",
+   "input": "Kantshé",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0080",
+   "input": "Kantché District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0081",
+   "input": "tchintabaraden",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005011",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0082",
+   "input": "Tchintabardaen",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005011",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0083",
+   "input": "Tshintabaraden",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005011",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0084",
+   "input": "BELBEDJI",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0085",
+   "input": "Belbeji",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0086",
+   "input": "Belbdji",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0087",
+   "input": "Takaita",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0088",
+   "input": "Talkeita",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0089",
+   "input": "Takeita County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0090",
+   "input": "TESKER",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007010",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0091",
+   "input": "Tsker",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007010",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0092",
+   "input": "Tesker LGA",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0093",
+   "input": "Aqerou",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0094",
+   "input": "Ayerrou",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0095",
+   "input": "Ayerou County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0096",
+   "input": "Dosso",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003004",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0097",
+   "input": "Doso",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0098",
+   "input": "dosso",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0099",
+   "input": "Loga District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0100",
+   "input": "LOGA",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0101",
+   "input": "Gaya County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0102",
+   "input": "Gaia",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0103",
+   "input": "Maïné Sorroa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0104",
+   "input": "Maine Soroa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002004",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0105",
+   "input": "Maïné-Soroa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002004",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0106",
+   "input": "Tessoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004009",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0107",
+   "input": "Tessaoua District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0108",
+   "input": "Tesaoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0109",
+   "input": "Birni-N'Konni",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0110",
+   "input": "Birni N'Konni LGA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0111",
+   "input": "Birni N'Koni",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0112",
+   "input": "Iierouane",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0113",
+   "input": "iferouane",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0114",
+   "input": "Iferrouane",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0115",
+   "input": "Banibangou Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0116",
+   "input": "Banibangu",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0117",
+   "input": "Banibcangou",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0118",
+   "input": "Ville de Zinder District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0119",
+   "input": "VILLE DE ZINDER",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007011",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0120",
+   "input": "Ville-de-Zinder",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007011",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0121",
+   "input": "Falmye",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0122",
+   "input": "Falmey District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0123",
+   "input": "Falmei",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0124",
+   "input": "Abalak County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0125",
+   "input": "abalak",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0126",
+   "input": "Ahbalak",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0127",
+   "input": "Tahoua District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0128",
+   "input": "Tahcua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005009",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0129",
+   "input": "Tahua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0130",
+   "input": "Diffa Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0131",
+   "input": "Difa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0132",
+   "input": "Tassara",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005010",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0133",
+   "input": "Tassraa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005010",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0134",
+   "input": "Tasara",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005010",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0135",
+   "input": "Boso",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0136",
+   "input": "bosso",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0137",
+   "input": "Bosso LGA",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE002001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0138",
+   "input": "Bouza",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005004",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0139",
+   "input": "Bouza District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0140",
+   "input": "Buza",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0141",
+   "input": "Say",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006010",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0142",
+   "input": "Sai",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006010",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0143",
+   "input": "SAY",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006010",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0144",
+   "input": "Bilma District",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE001003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0145",
+   "input": "bilma",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE001003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0146",
+   "input": "N'Guigmi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002006",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0147",
+   "input": "N'Gouigmi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0148",
+   "input": "N'Gugimi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002006",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0149",
+   "input": "Gotheye",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006007",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0150",
+   "input": "Gothèie",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0151",
+   "input": "Gothèye Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0152",
+   "input": "Doiundiou",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0153",
+   "input": "Dioundiu",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0154",
+   "input": "Dioundiou Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE003002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0155",
+   "input": "Mdalbaza",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0156",
+   "input": "Malbaza Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0157",
+   "input": "malbaza",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005008",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0158",
+   "input": "Goure",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007004",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0159",
+   "input": "Guré",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0160",
+   "input": "gouré",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE007004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0161",
+   "input": "Abala County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0162",
+   "input": "ABALA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0163",
+   "input": "Aballa",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0164",
+   "input": "Tckhirozerine",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001006",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0165",
+   "input": "Tchirozerine LGA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0166",
+   "input": "tchirozerine",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0167",
+   "input": "Aedrbissinat",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE001001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0168",
+   "input": "ADERBISSINAT",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE001001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0169",
+   "input": "Aderbissinat Department",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE001001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0170",
+   "input": "Boboie",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0171",
+   "input": "Boboye Department",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0172",
+   "input": "Bobye",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE003",
+   "expected": "NE003001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0173",
+   "input": "Balleyara County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0174",
+   "input": "Balleyaura",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0175",
+   "input": "Baleyara",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0176",
+   "input": "Torodi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006013",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0177",
+   "input": "Toroid",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006013",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0178",
+   "input": "Toroddi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE006",
+   "expected": "NE006013",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0179",
+   "input": "Iolléla",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0180",
+   "input": "Iléla",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0181",
+   "input": "Illela",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE005005",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0182",
+   "input": "Mayai",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0183",
+   "input": "Maiahi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0184",
+   "input": "Mayahi County",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0185",
+   "input": "Dakoro",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004003",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0186",
+   "input": "Dakorro",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0187",
+   "input": "Dakoo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE004003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0188",
+   "input": "Ingal",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0189",
+   "input": "Inglal",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0190",
+   "input": "INGALL",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0191",
+   "input": "N'Gurti",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0192",
+   "input": "N'Gsurti",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0193",
+   "input": "N'GOURTI",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE002",
+   "expected": "NE002005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0194",
+   "input": "Gouidan Roumdji",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0195",
+   "input": "Guidan Roumdi",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0196",
+   "input": "Guidan Roumdji LGA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0197",
+   "input": "VILLE DE NIAMEY",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE008",
+   "expected": "NE008001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0198",
+   "input": "Ville-de-Niamey",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE008",
+   "expected": "NE008001",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0199",
+   "input": "Vcille de Niamey",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE008",
+   "expected": "NE008001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0200",
+   "input": "FILINGUÉ",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0201",
+   "input": "Filingoué",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0202",
+   "input": "Filignué",
+   "iso3": "NER",
+   "level": 2,
+   "expected": "NE006006",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0203",
+   "input": "DAMAGARAM TAKAYA",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0204",
+   "input": "Damagaram Takaya District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0205",
+   "input": "Damagaram Taqaya",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE007",
+   "expected": "NE007002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0206",
+   "input": "Ville de Tahoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005013",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0207",
+   "input": "Ville De Tahua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005013",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0208",
+   "input": "Vile de Tahoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE005",
+   "expected": "NE005013",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0209",
+   "input": "Aguié",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0210",
+   "input": "Aguié County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0211",
+   "input": "Agouié",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0212",
+   "input": "Gazaoua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004004",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0213",
+   "input": "Gazaua",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0214",
+   "input": "Gazaoua County",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE004",
+   "expected": "NE004004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0215",
+   "input": "arlit",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0216",
+   "input": "Arlit District",
+   "iso3": "NER",
+   "level": 2,
+   "parent": "NE001",
+   "expected": "NE001002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0217",
+   "input": "Madaoua Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0218",
+   "input": "Mafdaoua",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0219",
+   "input": "Madaua",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0220",
+   "input": "Adeekoria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0221",
+   "input": "adjekoria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0222",
+   "input": "Adjeqoria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0223",
+   "input": "Koona",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009003",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0224",
+   "input": "Koonna",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0225",
+   "input": "KOONA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0226",
+   "input": "Dan Brato",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0227",
+   "input": "Dan Barto Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0228",
+   "input": "Dan-Barto",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005001",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0229",
+   "input": "Namakro",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008010",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0230",
+   "input": "Namarro",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008010",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0231",
+   "input": "Namaro Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0232",
+   "input": "Garanqédey",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0233",
+   "input": "GARANKÉDEY",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0234",
+   "input": "Garankéey",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0235",
+   "input": "Ourno",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0236",
+   "input": "Ourno Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0237",
+   "input": "Sambésa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0238",
+   "input": "Sambéra Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0239",
+   "input": "Sambera",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004008",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0240",
+   "input": "Aaerou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0241",
+   "input": "Ayerou Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0242",
+   "input": "Ayeru",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0243",
+   "input": "BANA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003006",
+   "expected": "NE003006001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0244",
+   "input": "Banna",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003006",
+   "expected": "NE003006001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0245",
+   "input": "Bana Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003006",
+   "expected": "NE003006001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0246",
+   "input": "Guidiguir",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0247",
+   "input": "Guidaiguir",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0248",
+   "input": "GUIDIGUIR",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0249",
+   "input": "Zinder I",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0250",
+   "input": "Zindr I",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0251",
+   "input": "Zinder-I",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011001",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0252",
+   "input": "N'Gonca",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0253",
+   "input": "N'Gonga Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001008",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0254",
+   "input": "Tanout Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0255",
+   "input": "TANOUT",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0256",
+   "input": "Tannout",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0257",
+   "input": "Sabbon Guida",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0258",
+   "input": "sabon guida",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0259",
+   "input": "Saben Guida",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007006",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0260",
+   "input": "Tibiri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0261",
+   "input": "Tibbiri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0262",
+   "input": "Tibiri Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0263",
+   "input": "Zinder-III",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0264",
+   "input": "Zinder Iii",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0265",
+   "input": "Zinder aIII",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0266",
+   "input": "El-Allassane-Maïreyrey",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0267",
+   "input": "El Allasasne Maïreyrey",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0268",
+   "input": "El Allassane Maïreyrey Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0269",
+   "input": "Gazaua",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0270",
+   "input": "Gazaoua Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0271",
+   "input": "Gazaua",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0272",
+   "input": "Dakboro",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0273",
+   "input": "Dakoro Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0274",
+   "input": "Daqoro",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0275",
+   "input": "Azarori",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0276",
+   "input": "Azarorri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0277",
+   "input": "Azarkri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0278",
+   "input": "Guidan Roumdji",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0279",
+   "input": "Guidan Roumdji Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0280",
+   "input": "Guidan-Roumdji",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0281",
+   "input": "Gamou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004003",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0282",
+   "input": "Gammou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0283",
+   "input": "Gamou Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0284",
+   "input": "Albarkarram",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0285",
+   "input": "Albarkaram Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0286",
+   "input": "albarkaram",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0287",
+   "input": "Bibiyergu",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0288",
+   "input": "Bxbiyergou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0289",
+   "input": "Bibiyergou Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0290",
+   "input": "Kaita",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0291",
+   "input": "Keita Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0292",
+   "input": "keita",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0293",
+   "input": "Falnko",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0294",
+   "input": "Falenqo",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0295",
+   "input": "Falenko Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0296",
+   "input": "Dieoundiou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0297",
+   "input": "DIOUNDIOU",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0298",
+   "input": "Dioundiou Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0299",
+   "input": "gadabedji",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004002",
+   "expected": "NE004002002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0300",
+   "input": "Gadbaedji",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004002",
+   "expected": "NE004002002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0301",
+   "input": "Gadabedji Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004002",
+   "expected": "NE004002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0302",
+   "input": "Anzourou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0303",
+   "input": "Anzoruou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0304",
+   "input": "anzourou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0305",
+   "input": "Zinder IV Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0306",
+   "input": "Zinde IV",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0307",
+   "input": "Zinder-IV",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007011",
+   "expected": "NE007011004",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0308",
+   "input": "Foulatari Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0309",
+   "input": "Foqulatari",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0310",
+   "input": "foulatari",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0311",
+   "input": "TESSA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004009",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0312",
+   "input": "Tessa Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004009",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0313",
+   "input": "Tesa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0314",
+   "input": "Tombokoirrey Ii",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004011",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0315",
+   "input": "Tombokoirey II Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004011",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0316",
+   "input": "Tomvbokoirey II",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004011",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0317",
+   "input": "Kanan Bakaché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008005",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0318",
+   "input": "Kanuan-Bakaché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0319",
+   "input": "Kanan-Baqaché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0320",
+   "input": "Alléla",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005003",
+   "expected": "NE005003001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0321",
+   "input": "Alléla Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005003",
+   "expected": "NE005003001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0322",
+   "input": "Allela",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005003",
+   "expected": "NE005003001",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0323",
+   "input": "Tamaya",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0324",
+   "input": "Tamaya Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0325",
+   "input": "Tamaia",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0326",
+   "input": "Ouallam Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0327",
+   "input": "Oualdam",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0328",
+   "input": "Oualam",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0329",
+   "input": "Maine Soroa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004002",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0330",
+   "input": "Maïmné Soroa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0331",
+   "input": "Maïné Soroa Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002004",
+   "expected": "NE002004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0332",
+   "input": "N'Gurti",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002005",
+   "expected": "NE002005001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0333",
+   "input": "N'Gourti Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002005",
+   "expected": "NE002005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0334",
+   "input": "N'Gocurti",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002005",
+   "expected": "NE002005001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0335",
+   "input": "TIMIA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0336",
+   "input": "Timmia",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0337",
+   "input": "Timia Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0338",
+   "input": "Sakoïra",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0339",
+   "input": "Sakoira",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012005",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0340",
+   "input": "Sakoïra Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0341",
+   "input": "Gothèye Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006007",
+   "expected": "NE006007002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0342",
+   "input": "gothèye",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006007",
+   "expected": "NE006007002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0343",
+   "input": "Gothèie",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006007",
+   "expected": "NE006007002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0344",
+   "input": "Tirminni",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0345",
+   "input": "Tirmini Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0346",
+   "input": "Tirimini",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0347",
+   "input": "Niamey-V",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001005",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0348",
+   "input": "Niamy V",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0349",
+   "input": "Niamei V",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0350",
+   "input": "Gaffati Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0351",
+   "input": "Gafftai",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0352",
+   "input": "Gaffatti",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0353",
+   "input": "Dogonkigria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0354",
+   "input": "dogonkiria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0355",
+   "input": "Dogonkirria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0356",
+   "input": "Ingagl",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001005",
+   "expected": "NE001005001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0357",
+   "input": "Ingall Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001005",
+   "expected": "NE001005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0358",
+   "input": "Ingal",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001005",
+   "expected": "NE001005001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0359",
+   "input": "Inatès",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0360",
+   "input": "Inates",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002002",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0361",
+   "input": "Inatès Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006002",
+   "expected": "NE006002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0362",
+   "input": "Karakara",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0363",
+   "input": "Karakara Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0364",
+   "input": "Karaqara",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003002",
+   "expected": "NE003002002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0365",
+   "input": "Bader Goula",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003003",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0366",
+   "input": "BADER GOULA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0367",
+   "input": "Bdaer Goula",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0368",
+   "input": "Mattankari",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0369",
+   "input": "Matankai",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0370",
+   "input": "Matankari Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0371",
+   "input": "Kao Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005011",
+   "expected": "NE005011001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0372",
+   "input": "kao",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005011",
+   "expected": "NE005011001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0373",
+   "input": "Takanamat Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0374",
+   "input": "Takanaamt",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009005",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0375",
+   "input": "Takanammat",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0376",
+   "input": "Sokorbe",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007003",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0377",
+   "input": "Soqorbé",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0378",
+   "input": "Sokorbé Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0379",
+   "input": "Roumbou I",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003010",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0380",
+   "input": "Roumbou I Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003010",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0381",
+   "input": "Roumbu I",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003010",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0382",
+   "input": "magaria",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0383",
+   "input": "Magarua",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0384",
+   "input": "Magaria Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0385",
+   "input": "Liboré",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008008",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0386",
+   "input": "Libboré",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0387",
+   "input": "Libore",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008008",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0388",
+   "input": "Simiri Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0389",
+   "input": "SIMIRI",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0390",
+   "input": "Sqmiri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006009",
+   "expected": "NE006009003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0391",
+   "input": "Sanam Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006001",
+   "expected": "NE006001002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0392",
+   "input": "Sannam",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006001",
+   "expected": "NE006001002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0393",
+   "input": "N'Gouigmi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002006",
+   "expected": "NE002006002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0394",
+   "input": "N'GUIGMI",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002006",
+   "expected": "NE002006002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0395",
+   "input": "N'Guigmi Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE002006",
+   "expected": "NE002006002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0396",
+   "input": "Mazamni",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002004",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0397",
+   "input": "Mazamni Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0398",
+   "input": "MAZAMNI",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007002",
+   "expected": "NE007002004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0399",
+   "input": "Daouche",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005002",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0400",
+   "input": "Daouché Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0401",
+   "input": "Dauché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007005",
+   "expected": "NE007005002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0402",
+   "input": "Gangaha",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0403",
+   "input": "Gangara Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0404",
+   "input": "gangara",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0405",
+   "input": "Dan-Issa Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0406",
+   "input": "Dan-Isa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0407",
+   "input": "Dan Issa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006001",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0408",
+   "input": "Dogondoutchi Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0409",
+   "input": "Dogondutchi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0410",
+   "input": "Dogondofutchi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003003",
+   "expected": "NE003003002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0411",
+   "input": "Tanda Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003006",
+   "expected": "NE003006004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0412",
+   "input": "TANDA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003006",
+   "expected": "NE003006004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0413",
+   "input": "gollé",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0414",
+   "input": "Gollé Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0415",
+   "input": "Golé",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0416",
+   "input": "Garhanga",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0417",
+   "input": "Garanga",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0418",
+   "input": "Garkhanga",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0419",
+   "input": "gouré",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0420",
+   "input": "Goure",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004004",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0421",
+   "input": "Gouré Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007004",
+   "expected": "NE007004004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0422",
+   "input": "Iferouane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0423",
+   "input": "Ifreouane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0424",
+   "input": "Iferouane Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001004",
+   "expected": "NE001004001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0425",
+   "input": "Flawel",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0426",
+   "input": "FALWEL",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0427",
+   "input": "Falwel Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003007",
+   "expected": "NE003007001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0428",
+   "input": "Falmei",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003005",
+   "expected": "NE003005001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0429",
+   "input": "Falmey Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003005",
+   "expected": "NE003005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0430",
+   "input": "FALMEY",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003005",
+   "expected": "NE003005001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0431",
+   "input": "Mirrkiah",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007007",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0432",
+   "input": "Mirriakh",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0433",
+   "input": "MIRRIAH",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0434",
+   "input": "N'Douna",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008009",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0435",
+   "input": "N'Dunga",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008009",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0436",
+   "input": "n'dounga",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008009",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0437",
+   "input": "Guidan Sorri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0438",
+   "input": "GUIDAN SORI",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0439",
+   "input": "Guidan-Sori",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0440",
+   "input": "Kiotta",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001006",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0441",
+   "input": "Kiota Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0442",
+   "input": "kiota",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0443",
+   "input": "Imanan",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006006",
+   "expected": "NE006006002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0444",
+   "input": "Immanan",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006006",
+   "expected": "NE006006002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0445",
+   "input": "Imanan Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006006",
+   "expected": "NE006006002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0446",
+   "input": "sarkin haoussa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0447",
+   "input": "Sarkin Haouksa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008007",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0448",
+   "input": "Sarkin Haousa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0449",
+   "input": "Gouchi Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007003",
+   "expected": "NE007003003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0450",
+   "input": "Guchi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007003",
+   "expected": "NE007003003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0451",
+   "input": "Goushi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007003",
+   "expected": "NE007003003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0452",
+   "input": "Dantshiao",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0453",
+   "input": "dantchiao",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0454",
+   "input": "Danlchiao",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007006",
+   "expected": "NE007006002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0455",
+   "input": "Tenhya Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0456",
+   "input": "TENHYA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0457",
+   "input": "Tenkhya",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007009",
+   "expected": "NE007009005",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0458",
+   "input": "Baoudetta Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0459",
+   "input": "Baodetta",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0460",
+   "input": "Baudetta",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004009",
+   "expected": "NE004009001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0461",
+   "input": "Babangatami",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0462",
+   "input": "Babankatami Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0463",
+   "input": "Babanqatami",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0464",
+   "input": "Sabon-Machi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003011",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0465",
+   "input": "Sabon Mahci",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003011",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0466",
+   "input": "sabon machi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003011",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0467",
+   "input": "Kornaqa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0468",
+   "input": "Konraka",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0469",
+   "input": "kornaka",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004003",
+   "expected": "NE004003008",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0470",
+   "input": "Bambeie",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0471",
+   "input": "Bambeye Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0472",
+   "input": "Bmbeye",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0473",
+   "input": "Dianthandou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0474",
+   "input": "Diantchandou Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0475",
+   "input": "Diantchandu",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0476",
+   "input": "DOGUERAWA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005008",
+   "expected": "NE005008001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0477",
+   "input": "Doguerrawa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005008",
+   "expected": "NE005008001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0478",
+   "input": "Doguerawa Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005008",
+   "expected": "NE005008001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0479",
+   "input": "FAREY",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0480",
+   "input": "Farey Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0481",
+   "input": "Farei",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0482",
+   "input": "Guidan-Amoumoune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0483",
+   "input": "Guidan Ammoumoune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0484",
+   "input": "Giudan Amoumoune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0485",
+   "input": "AZEYE",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0486",
+   "input": "Azeye Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0487",
+   "input": "Azeie",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005001",
+   "expected": "NE005001003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0488",
+   "input": "Deoule",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004004",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0489",
+   "input": "Déulé",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0490",
+   "input": "Déoulé Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0491",
+   "input": "Niamey-IV",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001004",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0492",
+   "input": "niamey iv",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001004",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0493",
+   "input": "Niamej IV",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0494",
+   "input": "Madarunfa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0495",
+   "input": "Madarounfa Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0496",
+   "input": "Maadrounfa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0497",
+   "input": "SAFO",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0498",
+   "input": "Safo Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0499",
+   "input": "Tesker Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007010",
+   "expected": "NE007010001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0500",
+   "input": "Teskre",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007010",
+   "expected": "NE007010001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0501",
+   "input": "Tesqer",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007010",
+   "expected": "NE007010001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0502",
+   "input": "Niamey Iii",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0503",
+   "input": "Niatmey III",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0504",
+   "input": "Niamey III Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE008001",
+   "expected": "NE008001003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0505",
+   "input": "ARLIT",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001002",
+   "expected": "NE001002001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0506",
+   "input": "Arlit Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE001002",
+   "expected": "NE001002001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0507",
+   "input": "Tajaé Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0508",
+   "input": "Tadjaé",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0509",
+   "input": "Tajae",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005003",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0510",
+   "input": "Mokko",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004007",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0511",
+   "input": "mokko",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004007",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0512",
+   "input": "Mokqo",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0513",
+   "input": "Ibohamane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0514",
+   "input": "Ibohamnae",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0515",
+   "input": "Ibohamane Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005006",
+   "expected": "NE005006002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0516",
+   "input": "Tagazar",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006003",
+   "expected": "NE006003001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0517",
+   "input": "Tagiazar",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006003",
+   "expected": "NE006003001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0518",
+   "input": "Tagazar Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006003",
+   "expected": "NE006003001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0519",
+   "input": "Zermuo",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007008",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0520",
+   "input": "Zermu",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007008",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0521",
+   "input": "zermou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007008",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0522",
+   "input": "Goroubankassam",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004005",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0523",
+   "input": "GOROUBANKASSAM",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004005",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0524",
+   "input": "Goroubankassam Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003004",
+   "expected": "NE003004005",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0525",
+   "input": "Affnala",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0526",
+   "input": "Affalla",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0527",
+   "input": "Affala Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0528",
+   "input": "Kouré Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008007",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0529",
+   "input": "Kuré",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0530",
+   "input": "Koure",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006008",
+   "expected": "NE006008007",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0531",
+   "input": "Attantane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008001",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0532",
+   "input": "Attntane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0533",
+   "input": "Atantane",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004008",
+   "expected": "NE004008001",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0534",
+   "input": "Kalfu",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009004",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0535",
+   "input": "Kaxfou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0536",
+   "input": "Kalfou Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005009",
+   "expected": "NE005009004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0537",
+   "input": "Garagoumsa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0538",
+   "input": "Garragoumsa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0539",
+   "input": "Garagofumsa",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007008",
+   "expected": "NE007008002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0540",
+   "input": "Tahoua Ii",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005013",
+   "expected": "NE005013002",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0541",
+   "input": "Tahoua-II",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005013",
+   "expected": "NE005013002",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0542",
+   "input": "Tamoua II",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005013",
+   "expected": "NE005013002",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0543",
+   "input": "sarkin yamma",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006006",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0544",
+   "input": "Sarkin-Yamma",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006006",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0545",
+   "input": "Sarkin Yamma Ward",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004006",
+   "expected": "NE004006006",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0546",
+   "input": "Badagjichiri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005001",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0547",
+   "input": "BADAGUICHIRI",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0548",
+   "input": "Badaguichiri Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005005",
+   "expected": "NE005005001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0549",
+   "input": "Dogo Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007001",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0550",
+   "input": "DOGO",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE007007",
+   "expected": "NE007007001",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0551",
+   "input": "Harikanassou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001004",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0552",
+   "input": "Harikanvssou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001004",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0553",
+   "input": "Harikanassou Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE003001",
+   "expected": "NE003001004",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0554",
+   "input": "Tilabéri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012007",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0555",
+   "input": "Tillaberi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012007",
+   "noise": "diacritics"
+  },
+  {
+   "id": "NER-0556",
+   "input": "Tillbéri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006012",
+   "expected": "NE006012007",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0557",
+   "input": "Torodi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006013",
+   "expected": "NE006013002",
+   "noise": "exact"
+  },
+  {
+   "id": "NER-0558",
+   "input": "Torodi Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006013",
+   "expected": "NE006013002",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0559",
+   "input": "Toroddi",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006013",
+   "expected": "NE006013002",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0560",
+   "input": "Buza",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0561",
+   "input": "BOUZA",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0562",
+   "input": "Bouza Commune",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005004",
+   "expected": "NE005004003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0563",
+   "input": "Galma Kudawatché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0564",
+   "input": "Galma-Koudawatché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007003",
+   "noise": "spacing"
+  },
+  {
+   "id": "NER-0565",
+   "input": "galma koudawatché",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE005007",
+   "expected": "NE005007003",
+   "noise": "case"
+  },
+  {
+   "id": "NER-0566",
+   "input": "Kokoou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006011",
+   "expected": "NE006011003",
+   "noise": "typo"
+  },
+  {
+   "id": "NER-0567",
+   "input": "Kokorou Sub-district",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006011",
+   "expected": "NE006011003",
+   "noise": "level_word"
+  },
+  {
+   "id": "NER-0568",
+   "input": "Kokorrou",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE006011",
+   "expected": "NE006011003",
+   "noise": "translit"
+  },
+  {
+   "id": "NER-0569",
+   "input": "Tibiri",
+   "iso3": "NER",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NER-0570",
+   "input": "Tibiri",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004005",
+   "expected": "NE004005005",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NER-0571",
+   "input": "Gangara",
+   "iso3": "NER",
+   "level": 3,
+   "expected": "AMBIGUOUS",
+   "noise": "duplicate"
+  },
+  {
+   "id": "NER-0572",
+   "input": "Gangara",
+   "iso3": "NER",
+   "level": 3,
+   "parent": "NE004004",
+   "expected": "NE004004001",
+   "noise": "duplicate_parent"
+  },
+  {
+   "id": "NER-0573",
+   "input": "Okpokwu",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0574",
+   "input": "Oru East",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0575",
+   "input": "Ede South",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0576",
+   "input": "Ogu/Bolo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0577",
+   "input": "Umuahia North",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0578",
+   "input": "Southern Ijaw",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0579",
+   "input": "Ifako-Ijaye",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0580",
+   "input": "Idleb",
+   "iso3": "NER",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0581",
+   "input": "Kauru",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0582",
+   "input": "Ikwuano",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0583",
+   "input": "Ife East",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0584",
+   "input": "Ondo East",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0585",
+   "input": "Kudan",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0586",
+   "input": "Kalgo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0587",
+   "input": "Jigawa",
+   "iso3": "NER",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0588",
+   "input": "Gwiwa",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0589",
+   "input": "Enugu",
+   "iso3": "NER",
+   "level": 1,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0590",
+   "input": "Ife South",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0591",
+   "input": "Karaye",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0592",
+   "input": "Obudu",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0593",
+   "input": "Awka South",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0594",
+   "input": "Bogoro",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0595",
+   "input": "Askira/Uba",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0596",
+   "input": "Ebonyi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0597",
+   "input": "Ethiope West",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0598",
+   "input": "Oshodi-Isolo",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0599",
+   "input": "Minjibir",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0600",
+   "input": "Lavun",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0601",
+   "input": "Bomadi",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0602",
+   "input": "Ekiti West",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0603",
+   "input": "Zango",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0604",
+   "input": "Kolokuma/Opokuma",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0605",
+   "input": "Obokun",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0606",
+   "input": "Degema",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0607",
+   "input": "Al-Hasakeh",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0608",
+   "input": "Ise/Orun",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0609",
+   "input": "Ikpoba-Okha",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0610",
+   "input": "Ibeju/Lekki",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0611",
+   "input": "Odogbolu",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  },
+  {
+   "id": "NER-0612",
+   "input": "Maiha",
+   "iso3": "NER",
+   "level": 2,
+   "expected": null,
+   "noise": "negative"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "iso3": "NGA",
+  "source": "Where the names came from, e.g. the HDX dataset URL and file of a 3W or HNO",
+  "labelledBy": "your name",
+  "labelledOn": "2026-10-11",
+  "cases": [
+    {"id": "NGA-c0001", "input": "Nassarawa", "iso3": "NGA", "level": 2, "parent": "Kano", "expected": "NG020031", "noise": "curated"},
+    {"id": "NGA-c0002", "input": "Bassa", "iso3": "NGA", "level": 2, "expected": "AMBIGUOUS", "noise": "curated"},
+    {"id": "NGA-c0003", "input": "Abuja North", "iso3": "NGA", "level": 2, "expected": null, "noise": "curated"}
+  ]
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>P-code checker</title>
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <link rel="stylesheet" href="taskpane.css" />
+  </head>
+  <body>
+    <main id="app" hidden>
+      <header>
+        <h1>P-code checker</h1>
+        <p class="muted">Turn a column of place names into OCHA p-codes. Matching runs on this computer; no workbook data leaves it.</p>
+      </header>
+
+      <div id="banner" class="banner" role="status" hidden></div>
+
+      <section id="matchPanel">
+        <h2>Match a column</h2>
+
+        <label for="nameRange">Place names</label>
+        <div class="row">
+          <input id="nameRange" readonly placeholder="Select the column, then Use selection" />
+          <button id="useName" type="button">Use selection</button>
+        </div>
+
+        <label for="parentRange">Parent names or p-codes <span class="muted">(optional)</span></label>
+        <div class="row">
+          <input id="parentRange" readonly placeholder="Needed when names repeat" />
+          <button id="useParent" type="button">Use selection</button>
+          <button id="clearParent" type="button" class="icon" title="Clear parent column" aria-label="Clear parent column">✕</button>
+        </div>
+
+        <div class="grid">
+          <div>
+            <label for="country">Country</label>
+            <select id="country"></select>
+          </div>
+          <div>
+            <label for="level">Admin level</label>
+            <select id="level"></select>
+          </div>
+        </div>
+
+        <label class="check"><input id="header" type="checkbox" checked /> First row is a header</label>
+
+        <details>
+          <summary>Options</summary>
+          <label for="parentLevel">Parent names are at</label>
+          <select id="parentLevel"></select>
+          <div class="grid">
+            <div>
+              <label for="threshold">Minimum score</label>
+              <input id="threshold" type="number" min="50" max="100" value="80" />
+            </div>
+            <div>
+              <label for="reviewBelow">Review fuzzy below</label>
+              <input id="reviewBelow" type="number" min="50" max="100" value="90" />
+            </div>
+          </div>
+        </details>
+
+        <button id="run" type="button" class="primary">Match</button>
+        <p id="progress" class="muted" aria-live="polite"></p>
+
+        <div id="summary" hidden>
+          <ul id="counts" class="counts"></ul>
+          <button id="openReview" type="button">Review</button>
+        </div>
+      </section>
+
+      <section id="reviewPanel" hidden>
+        <h2>Review <span id="reviewPosition" class="muted"></span></h2>
+        <p class="review-input">
+          <span id="reviewCell" class="muted"></span><br />
+          <strong id="reviewText"></strong>
+          <span id="reviewParent" class="muted"></span>
+        </p>
+        <p id="reviewNote" class="muted"></p>
+        <fieldset>
+          <legend>Pick the right unit</legend>
+          <div id="candidates"></div>
+          <label class="check"
+            ><input type="radio" name="candidate" value="__manual" id="manualChoice" /> Another p-code:
+            <input id="manualPcode" class="inline" placeholder="e.g. NG020031" />
+          </label>
+        </fieldset>
+        <label class="check"><input id="remember" type="checkbox" checked /> Remember for this workbook (alias)</label>
+        <p id="reviewError" class="error" hidden></p>
+        <div class="row buttons">
+          <button id="prev" type="button">Back</button>
+          <button id="skip" type="button">Skip</button>
+          <button id="confirm" type="button" class="primary">Confirm</button>
+        </div>
+        <button id="closeReview" type="button" class="link">Done reviewing</button>
+      </section>
+
+      <footer>
+        <p id="versionInfo" class="muted"></p>
+        <p class="muted small" id="attribution">
+          P-codes: Global P-code List, UN OCHA Information Systems Section, via the
+          <a href="https://data.humdata.org/dataset/global-pcodes" target="_blank" rel="noopener">Humanitarian Data Exchange</a>,
+          licensed under CC BY-IGO.
+        </p>
+      </footer>
+    </main>
+    <p id="loading" class="muted">Loading…</p>
+  </body>
+</html>

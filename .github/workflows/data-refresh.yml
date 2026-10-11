@@ -1,0 +1,92 @@
+name: data-refresh
+
+# Monthly: fetch the HDX Global P-code List, validate it, split it per country
+# and open a PR against the `data` branch. Validation errors fail the run.
+on:
+  schedule:
+    - cron: "17 5 3 * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild even if HDX has not changed
+        type: boolean
+        default: false
+      allow_drop:
+        description: Comma-separated ISO3s allowed to lose more than 10% of rows
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: data-refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Does the data branch exist?
+        id: branch
+        run: |
+          if git ls-remote --exit-code --heads origin data > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out the data branch
+        if: steps.branch.outputs.exists == 'true'
+        uses: actions/checkout@v7
+        with:
+          ref: data
+          path: site/data
+
+      - uses: astral-sh/setup-uv@v10
+
+      - name: Fetch, validate, split
+        id: build
+        working-directory: data-build
+        env:
+          FORCE: ${{ inputs.force && '--force' || '' }}
+          ALLOW_DROP: ${{ inputs.allow_drop }}
+        run: |
+          mkdir -p ../site/data
+          uv run python build.py --out ../site/data --summary ../summary.md $FORCE --allow-drop "$ALLOW_DROP"
+
+      - name: Show the summary
+        if: always()
+        run: if [ -f summary.md ]; then cat summary.md >> "$GITHUB_STEP_SUMMARY"; fi
+
+      - name: Create the data branch (first run)
+        if: steps.branch.outputs.exists == 'false' && steps.build.outputs.changed == 'true'
+        working-directory: site/data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .github/workflows
+          cp ../../.github/data-branch/deploy-on-data.yml .github/workflows/
+          git init -q -b data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "P-code data from HDX"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" data
+          # pushes made with GITHUB_TOKEN don't trigger workflows, so deploy explicitly
+          gh workflow run deploy.yml --ref main --repo "${{ github.repository }}"
+
+      - name: Open a pull request
+        if: steps.branch.outputs.exists == 'true' && steps.build.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          path: site/data
+          base: data
+          branch: data-refresh
+          delete-branch: true
+          commit-message: Refresh p-code data from HDX
+          title: "Data refresh: Global P-code List"
+          body-path: summary.md
